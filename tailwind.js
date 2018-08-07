@@ -193,6 +193,10 @@ module.exports = {
   */
 
   fonts: {
+    'pinyon': [
+      'Pinyon Script',
+      'cursive',
+    ],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',
@@ -259,6 +263,7 @@ module.exports = {
     '3xl': '1.875rem',  // 30px
     '4xl': '2.25rem',   // 36px
     '5xl': '3rem',      // 48px
+    '16xl': '10rem',    //160px
   },
 
 

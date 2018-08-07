@@ -5,24 +5,24 @@
 <div class="nav">
     <ul class="flex mx-auto justify-around list-reset w-1/3 p-4">
         <li>
-            <a href="/camere/">Camere</a>
+            <a href="/rooms/">Rooms</a>
         </li>
         <li>
-            <a href="/facilitati/">Facilități</a>
+            <a href="/facilities/">Facilities</a>
         </li>
         <li>
-            <a href="/imagini/">Imagini</a>
+            <a href="/images/">Images</a>
         </li>
         <li>
             <a href="/contact/">Contact</a>
         </li>
     </ul>
-    <a href="/en/" class="absolute pin-r">EN</a>
+    <a href="/ro/" class="absolute pin-r">RO</a>
 </div>
 
 <div class="splash h-screen flex flex-col items-center justify-center">
     <h1 class="splash-text text-yellow-lighter">Chez Marcel</h1>
-    <p class="text-right text-yellow-lighter -mt-2 italic z-10">din 2018, în Sinaia</p>
+    <p class="text-right text-yellow-lighter -mt-2 italic z-10">since 2018, in Sinaia</p>
 </div>
 
 @endsection
