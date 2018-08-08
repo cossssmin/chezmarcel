@@ -68,7 +68,29 @@
 /***/ "./source/_assets/js/main.js":
 /***/ (function(module, exports) {
 
+/**
+ ** Mobile menu
+ */
 
+var menuToggle = document.getElementById('menu-toggle');
+var menuOpenIcon = document.getElementById('menu-open');
+var menuCloseIcon = document.getElementById('menu-close');
+var menu = document.getElementById('menu');
+
+function toggleMenu() {
+  menuOpenIcon.classList.toggle('hidden');
+  menuCloseIcon.classList.toggle('hidden');
+
+  if (menu.getAttribute('aria-expanded') == 'true') {
+    menu.setAttribute('aria-expanded', 'false');
+
+    return;
+  }
+
+  return menu.setAttribute('aria-expanded', 'true');
+}
+
+if (menuToggle) menuToggle.addEventListener('click', toggleMenu, false);
 
 /***/ }),
 

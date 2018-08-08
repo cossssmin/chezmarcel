@@ -1,14 +1,8 @@
 .splash {
-  background-image: url('/assets/img/sinaia-old.jpg');
+  background-image: url('/assets/img/forest-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-@screen xl {
-  .splash {
-    background-size: 105%;
-    background-position: center 50%;
-  }
+  background-position: center;
 }
 
 .splash::before {
@@ -18,28 +12,38 @@
 }
 
 .splash-text {
-  @apply inline-block font-pinyon text-16xl text-white z-20 -mt-8;
   text-shadow: 0px 3px 0px rgba(0,0,0,0.2);
 }
 
-.nav {
-  @apply flex items-center absolute w-full bg-black z-30;
-
+#menu {
   a {
-    @apply text-white no-underline p-4;
+    @apply text-splash-logo no-underline p-4;
+
+    &.active {
+      @apply text-white;
+    }
 
     &:hover {
-      @apply text-grey-light;
+      @apply text-white;
     }
   }
 }
 
+[aria-expanded="true"] {
+  display: block !important;
+}
+
 .content {
     a {
-        @apply .text-blue .no-underline;
+      @apply .text-blue .no-underline;
 
-        &:hover {
-            @apply .text-blue-darker;
-        }
+      &:hover {
+          @apply .text-blue-darker;
+      }
     }
+}
+
+.footer {
+  background-image: url('/assets/img/footer-bg.jpg');
+  background-repeat: no-repeat;
 }

@@ -2,27 +2,11 @@
 
 @section('content')
 
-<div class="nav">
-    <ul class="flex mx-auto justify-around list-reset w-1/3 p-4">
-        <li>
-            <a href="/rooms/">Rooms</a>
-        </li>
-        <li>
-            <a href="/facilities/">Facilities</a>
-        </li>
-        <li>
-            <a href="/images/">Images</a>
-        </li>
-        <li>
-            <a href="/contact/">Contact</a>
-        </li>
-    </ul>
-    <a href="/ro/" class="absolute pin-r">RO</a>
-</div>
+@include('_partials.nav.en')
 
 <div class="splash h-screen flex flex-col items-center justify-center">
-    <h1 class="splash-text text-yellow-lighter">Chez Marcel</h1>
-    <p class="text-right text-yellow-lighter -mt-2 italic z-10">since 2018, in Sinaia</p>
+    <h1 class="splash-text inline-block font-pinyon text-5xl sm:text-10xl md:text-16xl leading-loose sm:leading-tight z-20 -mt-8 text-splash-logo">Chez Marcel</h1>
+    <p class="text-right text-splash-logo -mt-2 italic z-10 text-sm sm:text-base">since 2018, in Sinaia</p>
 </div>
 
 @endsection
