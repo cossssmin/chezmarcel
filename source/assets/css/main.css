@@ -707,6 +707,22 @@ table {
   background-repeat: no-repeat;
 }
 
+.top-8 {
+  top: 2rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.aspectRatioPlaceholder .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;
@@ -3976,6 +3992,26 @@ table {
   opacity: 1;
 }
 
+.hover\:opacity-0:hover {
+  opacity: 0;
+}
+
+.hover\:opacity-25:hover {
+  opacity: .25;
+}
+
+.hover\:opacity-50:hover {
+  opacity: .5;
+}
+
+.hover\:opacity-75:hover {
+  opacity: .75;
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
 .outline-none {
   outline: 0;
 }
@@ -5752,6 +5788,14 @@ table {
 }
 
 @media (min-width: 576px) {
+  .sm\:top-8 {
+    top: 2rem;
+  }
+
+  .sm\:top-20 {
+    top: 5rem;
+  }
+
   .sm\:list-reset {
     list-style: none;
     padding: 0;
@@ -9013,6 +9057,26 @@ table {
     opacity: 1;
   }
 
+  .sm\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+
+  .sm\:hover\:opacity-25:hover {
+    opacity: .25;
+  }
+
+  .sm\:hover\:opacity-50:hover {
+    opacity: .5;
+  }
+
+  .sm\:hover\:opacity-75:hover {
+    opacity: .75;
+  }
+
+  .sm\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+
   .sm\:overflow-auto {
     overflow: auto;
   }
@@ -10774,6 +10838,14 @@ table {
 }
 
 @media (min-width: 768px) {
+  .md\:top-8 {
+    top: 2rem;
+  }
+
+  .md\:top-20 {
+    top: 5rem;
+  }
+
   .md\:list-reset {
     list-style: none;
     padding: 0;
@@ -14035,6 +14107,26 @@ table {
     opacity: 1;
   }
 
+  .md\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+
+  .md\:hover\:opacity-25:hover {
+    opacity: .25;
+  }
+
+  .md\:hover\:opacity-50:hover {
+    opacity: .5;
+  }
+
+  .md\:hover\:opacity-75:hover {
+    opacity: .75;
+  }
+
+  .md\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+
   .md\:overflow-auto {
     overflow: auto;
   }
@@ -15796,6 +15888,14 @@ table {
 }
 
 @media (min-width: 992px) {
+  .lg\:top-8 {
+    top: 2rem;
+  }
+
+  .lg\:top-20 {
+    top: 5rem;
+  }
+
   .lg\:list-reset {
     list-style: none;
     padding: 0;
@@ -19057,6 +19157,26 @@ table {
     opacity: 1;
   }
 
+  .lg\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+
+  .lg\:hover\:opacity-25:hover {
+    opacity: .25;
+  }
+
+  .lg\:hover\:opacity-50:hover {
+    opacity: .5;
+  }
+
+  .lg\:hover\:opacity-75:hover {
+    opacity: .75;
+  }
+
+  .lg\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+
   .lg\:overflow-auto {
     overflow: auto;
   }
@@ -20818,6 +20938,14 @@ table {
 }
 
 @media (min-width: 1200px) {
+  .xl\:top-8 {
+    top: 2rem;
+  }
+
+  .xl\:top-20 {
+    top: 5rem;
+  }
+
   .xl\:list-reset {
     list-style: none;
     padding: 0;
@@ -24076,6 +24204,26 @@ table {
   }
 
   .xl\:opacity-100 {
+    opacity: 1;
+  }
+
+  .xl\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+
+  .xl\:hover\:opacity-25:hover {
+    opacity: .25;
+  }
+
+  .xl\:hover\:opacity-50:hover {
+    opacity: .5;
+  }
+
+  .xl\:hover\:opacity-75:hover {
+    opacity: .75;
+  }
+
+  .xl\:hover\:opacity-100:hover {
     opacity: 1;
   }
 
