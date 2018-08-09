@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full w-full">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
     </head>
-    <body class="antialiased font-sans">
+    <body class="antialiased font-sans h-full w-full">
         @yield('content')
 
         <script src="{{ mix('/js/main.js') }}"></script>
