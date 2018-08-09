@@ -7,6 +7,7 @@
 
 .splash::before {
   @apply absolute pin w-full h-full z-10;
+
   content: '';
   background: rgba(0, 0, 0, .25);
 }
@@ -17,7 +18,7 @@
 
 #menu {
   a {
-    @apply text-splash-logo no-underline p-4;
+    @apply text-splash-logo no-underline;
 
     &.active {
       @apply text-white;
@@ -31,16 +32,6 @@
 
 [aria-expanded="true"] {
   display: block !important;
-}
-
-.content {
-    a {
-      @apply .text-blue .no-underline;
-
-      &:hover {
-          @apply .text-blue-darker;
-      }
-    }
 }
 
 .footer {

@@ -2,13 +2,16 @@
 extends: _layouts.page
 title: Camere la Chez Marcel
 description: Galerie foto si facilitati camere la Chez Marcel Sinaia
+slugs:
+  ro: camere
+  en: en/rooms
 ---
 
 @section('page')
 
 @include('_partials.nav.ro')
 
-<header class="w-full bg-grey-lighter py-20">
+<header class="w-full bg-grey-lighter py-12 sm:py-20">
     <div class="container px-6">
         <h1 class="text-4xl sm:text-5xl font-light mb-2 -mt-3">Camere</h1>
         <p class="text-grey-dark">Alege tipul de cameră care ți se potrivește</p>
@@ -20,12 +23,12 @@ description: Galerie foto si facilitati camere la Chez Marcel Sinaia
 
         <h2 class="text-3xl font-light">Camere Duble</h2>
 
-        <div class="flex flex-wrap -mx-6 py-10">
-            <div class="sm:w-1/2 lg:w-1/3 px-6 mb-8">
-                <figure class="shadow hover:shadow-lg">
-                    <a href="{{ $page->baseUrl }}/camere/1" class="text-black no-underline">
-                        <img src="https://placehold.it/1150x800" alt="">
-                        <figcaption class="bg-white p-4">
+        <div class="flex flex-wrap -mx-6 -mb-10 py-10">
+            <div class="sm:w-1/2 lg:w-1/3 px-6 mb-12">
+                <figure class="shadow hover:shadow-lg rounded-b">
+                    <a href="{{ $page->baseUrl }}/camere/1" class="block text-black no-underline">
+                        <img src="https://placehold.it/1150x800" alt="" class="rounded-t">
+                        <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Camera 1
                                 <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">parter</span>
@@ -35,11 +38,11 @@ description: Galerie foto si facilitati camere la Chez Marcel Sinaia
                     </a>
                 </figure>
             </div>
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-6 mb-8">
-                <figure class="shadow hover:shadow-lg">
-                    <a href="{{ $page->baseUrl }}/camere/2" class="text-black no-underline">
-                        <img src="https://placehold.it/1150x800" alt="">
-                        <figcaption class="bg-white p-4">
+            <div class="sm:w-1/2 lg:w-1/3 px-6 mb-12">
+                <figure class="shadow hover:shadow-lg rounded-b">
+                    <a href="{{ $page->baseUrl }}/camere/2" class="block text-black no-underline">
+                        <img src="https://placehold.it/1150x800" alt="" class="rounded-t">
+                        <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Camera 2
                                 <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">parter</span>
@@ -49,14 +52,14 @@ description: Galerie foto si facilitati camere la Chez Marcel Sinaia
                     </a>
                 </figure>
             </div>
-            <div class="sm:w-1/2 lg:w-1/3 px-6 relative">
+            <div class="sm:w-1/2 lg:w-1/3 px-6 mb-12 relative">
                 <div class="absolute flex items-center justify-center w-full h-full -mt-8 -ml-6">
                     <span class="text-2xl text-red-light">În curând</span>
                 </div>
-                <figure class="shadow hover:shadow-lg opacity-25 pointer-events-none">
-                    <a href="{{ $page->baseUrl }}/camere/2" class="text-black no-underline">
-                        <img src="https://placehold.it/1150x800" alt="">
-                        <figcaption class="bg-white p-4">
+                <figure class="shadow hover:shadow-lg rounded-b opacity-25 pointer-events-none">
+                    <a href="{{ $page->baseUrl }}/camere/2" class="block text-black no-underline">
+                        <img src="https://placehold.it/1150x800" alt="" class="rounded-t">
+                        <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Camera 3
                                 <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">etaj</span>
@@ -72,10 +75,10 @@ description: Galerie foto si facilitati camere la Chez Marcel Sinaia
 
         <div class="flex flex-wrap -mx-6 py-10">
             <div class="sm:w-1/2 lg:w-1/3 px-6">
-                <figure class="shadow hover:shadow-lg">
-                    <a href="{{ $page->baseUrl }}/apartamente/1" class="text-black no-underline">
-                        <img src="https://placehold.it/1150x800" alt="">
-                        <figcaption class="bg-white p-4">
+                <figure class="shadow hover:shadow-lg rounded-b">
+                    <a href="{{ $page->baseUrl }}/apartamente/1" class="block text-black no-underline">
+                        <img src="https://placehold.it/1150x800" alt="" class="rounded-t">
+                        <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Apartament 1
                                 <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">parter</span>
@@ -89,52 +92,54 @@ description: Galerie foto si facilitati camere la Chez Marcel Sinaia
     </div>
 </section>
 
-<footer class="footer sm:bg-footer bg-bottom bg-contain sm:bg-auto sm:bg-top pt-16 pb-8 sm:pb-32">
-    <div class="container flex flex-col items-center mb-16 sm:mb-32 md:mb-72 lg:mb-72 xl:mb-144">
+<section class="bg-grey-lightest pb-10 sm:pb-0 xl:py-16">
+    <div class="container flex flex-col items-center lg:-mb-32 mb-16 sm:-mb-8 xl:-mb-72">
         <h4 class="font-light text-2xl sm:text-4xl text-black mb-2 sm:mb-4">Rezervări simple și rapide</h4>
         <p class="text-grey-dark text-sm text-center mb-8">Sună-l pe Marcel sau rezervă prin Booking.com</p>
-        <a href="{{ $page->baseUrl }}/contact/" class="border border-blue text-blue hover:bg-blue hover:text-white hover:shadow-md rounded px-6 py-4 no-underline">Vreau să rezerv &rarr;</a>
+        <a href="{{ $page->baseUrl }}/contact/" class="border border-blue text-blue hover:bg-blue hover:text-white hover:shadow-md rounded px-6 py-4 no-underline z-10">Vreau să rezerv &rarr;</a>
     </div>
-    <hr class="sm:hidden h-px bg-grey-light mx-16 mb-16">
+</section>
+
+<footer class="bg-bottom bg-contain xl:bg-auto bg-grey-lightest footer sm:bg-top sm:bg-footer pb-8 sm:pb-16 sm:pt-80 lg:pt-120 xl:pt-200">
     <div class="container flex flex-wrap text-white px-6 lg:pt-8">
         <div class="w-1/2 sm:w-1/4">
-            <h5 class="font-normal text-lg text-footer-lighter md:text-splash-logo xl:text-footer-lighter mb-6">Navigație</h5>
+            <h5 class="font-normal text-lg text-footer-lighter sm:text-splash-logo mb-6">Navigație</h5>
             <ul class="list-reset text-sm">
                 <li>
-                    <a href="{{ $page->baseUrl }}/camere/" class="inline-block text-footer-white md:text-splash-logo xl:text-footer-white no-underline hover:text-splash-logo py-1 mb-2">Camere</a>
+                    <a href="{{ $page->baseUrl }}/camere/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Camere</a>
                 </li>
                 <li>
-                    <a href="{{ $page->baseUrl }}/facilitati/" class="inline-block text-footer-white md:text-splash-logo xl:text-footer-white no-underline hover:text-splash-logo py-1 mb-2">Facilități</a>
+                    <a href="{{ $page->baseUrl }}/facilitati/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Facilități</a>
                 </li>
                 <li>
-                    <a href="{{ $page->baseUrl }}/imagini/" class="inline-block text-footer-white md:text-splash-logo xl:text-footer-white no-underline hover:text-splash-logo py-1 mb-2">Imagini</a>
+                    <a href="{{ $page->baseUrl }}/imagini/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Imagini</a>
                 </li>
                 <li>
-                    <a href="{{ $page->baseUrl }}/contact/" class="inline-block text-footer-white md:text-splash-logo xl:text-footer-white no-underline hover:text-splash-logo py-1 mb-2">Contact</a>
+                    <a href="{{ $page->baseUrl }}/contact/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Contact</a>
                 </li>
             </ul>
         </div>
         <div class="w-1/2 sm:w-1/4">
-            <h5 class="font-normal text-lg text-footer-lighter md:text-splash-logo xl:text-footer-lighter mb-6">Ne găsești și pe</h5>
+            <h5 class="font-normal text-lg text-footer-lighter sm:text-splash-logo mb-6">Ne găsești și pe</h5>
             <ul class="list-reset text-sm">
                 <li>
-                    <a href="{{ $page->links->booking }}" rel="nofollow noopener" target="_blank" class="inline-block text-footer-white md:text-splash-logo xl:text-footer-white no-underline hover:text-splash-logo py-1 mb-2">Booking.com</a>
+                    <a href="{{ $page->links->booking }}" rel="nofollow noopener" target="_blank" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Booking.com</a>
                 </li>
                 <li>
-                    <a href="{{ $page->links->facebook }}" rel="nofollow noopener" target="_blank" class="inline-block text-footer-white md:text-splash-logo xl:text-footer-white no-underline hover:text-splash-logo py-1 mb-2">Facebook</a>
+                    <a href="{{ $page->links->facebook }}" rel="nofollow noopener" target="_blank" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Facebook</a>
                 </li>
             </ul>
         </div>
         <div class="w-full sm:w-1/2 mt-8 mb-16 sm:my-0 text-left sm:text-right">
-            <a href="{{ $page->baseUrl }}/" class="inline-block font-pinyon text-5xl no-underline text-footer-light md:text-splash-logo hover:text-splash-logo mb-8">Chez Marcel</a>
-            <ul class="list-reset text-footer-lightest sm:text-splash-logo lg:text-footer-lightest leading-normal">
+            <a href="{{ $page->baseUrl }}/" class="inline-block font-pinyon text-5xl no-underline text-footer-light sm:text-splash-logo hover:text-splash-logo mb-8">Chez Marcel</a>
+            <ul class="list-reset text-footer-lightest sm:text-splash-logo leading-normal">
                 <li class="mb-4">
                     <p>Republicii 11, Sinaia, 106100</p>
                     <p>Prahova, Romania</p>
                 </li>
                 <li class="mb-4">
                     <p>
-                        GPS: <a class="text-footer-lightest sm:text-splash-logo lg:text-footer-lightest" rel="nofollow noopener" target="_blank" href="https://www.google.com/maps/place/45%C2%B020'39.6%22N+25%C2%B032'56.3%22E/@45.3443279,25.5484268,199m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d45.3443265!4d25.5489735">45.344327, 25.548974</a>
+                        GPS: <a class="text-footer-lightest sm:text-splash-logo" rel="nofollow noopener" target="_blank" href="https://www.google.com/maps/place/45%C2%B020'39.6%22N+25%C2%B032'56.3%22E/@45.3443279,25.5484268,199m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d45.3443265!4d25.5489735">45.344327, 25.548974</a>
                     </p>
                 </li>
                 <li>

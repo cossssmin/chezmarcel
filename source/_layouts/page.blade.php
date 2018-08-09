@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="mt-20">
+    <div class="mt-12 sm:mt-20">
         @yield('page')
     </div>
 
