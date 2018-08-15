@@ -1,24 +1,24 @@
 <footer class="footer bg-bottom bg-contain xl:bg-auto bg-grey-lightest sm:bg-top sm:bg-footer pb-8 sm:pb-16 sm:pt-80 lg:pt-120 xl:pt-200">
     <div class="container flex flex-wrap text-white px-6 lg:pt-8">
         <div class="w-1/2 sm:w-1/4">
-            <h5 class="font-normal text-lg text-footer-lighter sm:text-splash-logo mb-6">Navigație</h5>
+            <h5 class="font-normal text-lg text-footer-lighter sm:text-splash-logo mb-6">Navigation</h5>
             <ul class="list-reset text-sm">
                 <li>
-                    <a href="{{ $page->baseUrl }}/camere/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Camere</a>
+                    <a href="{{ $page->baseUrl }}/en/rooms/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Rooms</a>
                 </li>
                 <li>
-                    <a href="{{ $page->baseUrl }}/facilitati/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Facilități</a>
+                    <a href="{{ $page->baseUrl }}/en/facilities/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Facilities</a>
                 </li>
                 <li>
-                    <a href="{{ $page->baseUrl }}/imagini/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Imagini</a>
+                    <a href="{{ $page->baseUrl }}/en/photos/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Photos</a>
                 </li>
                 <li>
-                    <a href="{{ $page->baseUrl }}/contact/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Contact</a>
+                    <a href="{{ $page->baseUrl }}/en/contact/" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Contact</a>
                 </li>
             </ul>
         </div>
         <div class="w-1/2 sm:w-1/4">
-            <h5 class="font-normal text-lg text-footer-lighter sm:text-splash-logo mb-6">Ne găsești și pe</h5>
+            <h5 class="font-normal text-lg text-footer-lighter sm:text-splash-logo mb-6">Find us on</h5>
             <ul class="list-reset text-sm">
                 <li>
                     <a href="{{ $page->links->booking }}" rel="nofollow noopener" target="_blank" class="inline-block text-footer-white sm:text-splash-logo no-underline hover:text-white py-1 mb-2">Booking.com</a>

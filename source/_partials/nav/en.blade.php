@@ -1,20 +1,20 @@
-<nav class="nav flex items-center fixed w-full bg-footer z-30 h-12 sm:h-20 pin-r pin-t">
+<nav class="nav flex items-center fixed w-full bg-footer z-40 h-12 sm:h-20 pin-r pin-t">
     <div class="container flex items-center justify-between">
         <h1 class="font-pinyon font-light text-2xl sm:text-4xl">
             <a href="{{ $page->baseUrl }}/" class="antialiased text-white no-underline px-2">Chez Marcel</a>
         </h1>
         <ul id="menu" class="absolute w-48 lg:w-auto lg:relative bg-footer hidden list-reset lg:flex md:justify-around pl-4 lg:p-1 xl:pr-0 md:w-1/3 mt-12 sm:mt-20 lg:mt-0 lg:-mr-2 pin-r pin-t text-right">
             <li>
-                <a href="{{ $page->baseUrl }}/rooms/" class="inline-block text-sm sm:text-base p-4">Rooms</a>
+                <a href="{{ $page->baseUrl }}/en/rooms/" class="inline-block text-sm sm:text-base p-4">Rooms</a>
             </li>
             <li>
-                <a href="{{ $page->baseUrl }}/facilities/" class="inline-block text-sm sm:text-base p-4">Facilities</a>
+                <a href="{{ $page->baseUrl }}/en/facilities/" class="inline-block text-sm sm:text-base p-4">Facilities</a>
             </li>
             <li>
-                <a href="{{ $page->baseUrl }}/photos/" class="inline-block text-sm sm:text-base p-4">Photos</a>
+                <a href="{{ $page->baseUrl }}/en/photos/" class="inline-block text-sm sm:text-base p-4">Photos</a>
             </li>
             <li>
-                <a href="{{ $page->baseUrl }}/contact/" class="inline-block text-sm sm:text-base p-4">Contact</a>
+                <a href="{{ $page->baseUrl }}/en/contact/" class="inline-block text-sm sm:text-base p-4">Contact</a>
             </li>
             <li class="hidden lg:block lg:fixed pin-r">
                 <a href="{{ $page->baseUrl . '/' . $page->slugs->ro }}/" class="inline-block text-sm sm:text-base p-4">RO</a>

@@ -1,10 +1,10 @@
 ---
 extends: _layouts.page
-title: Camera 1 (Dublă) la Chez Marcel | Cazare în centrul oraşului Sinaia
-description: Galerie foto şi facilităţi camera dublă 1 la Chez Marcel Sinaia
+title: Suită pentru familie la Chez Marcel | Cazare în centrul oraşului Sinaia
+description: Galerie foto şi facilităţi suită pentru familie la Chez Marcel Sinaia
 slugs:
-  ro: camere/1
-  en: en/rooms/1
+  ro: suite/1
+  en: en/suites/1
 ---
 
 @section('page')
@@ -13,8 +13,8 @@ slugs:
 
 <header class="w-full bg-grey-lighter py-12 sm:py-20">
     <div class="container px-6">
-        <h1 class="text-4xl sm:text-5xl font-light mb-2 -mt-3">Unu</h1>
-        <p class="text-grey-dark">La parter, cu vedere la grădină/foișor și Munții Baiului</p>
+        <h1 class="text-4xl sm:text-5xl font-light mb-2 -mt-3">Doi</h1>
+        <p class="text-grey-dark">La parter, cu vedere la grădină/foișor/Munții Baiului şi curtea interioară</p>
     </div>
 </header>
 
@@ -22,9 +22,9 @@ slugs:
     <div class="container flex flex-wrap px-6 text-grey-darker leading-normal">
         <article class="w-full md:w-3/5">
             <p>
-                <em>Unu</em> este o cameră dublă, situată la parterul vilei.
-                Are un pat mare, o baie cu tot ce e nevoie, măsuță cu taburete, și Smart TV de 81 cm, cu cablu + Netflix.
-                În plus, ajungi mai repede la bucătărie și în living 😉
+                <em>Doi</em> este o suită pentru familie, situată la parterul vilei.
+                Are două camere cu două paturi mari, o baie cu tot ce e nevoie, măsuțe cu taburete, și TV-uri Smart de 81 cm, ambele cu cablu + Netflix.
+                Perfectă pentru familiile care vor să stea împreună 👨‍👩‍👧‍👦
             </p>
 
             <hr class="h-px bg-grey-light my-12 relative z-30">
@@ -32,29 +32,29 @@ slugs:
                 <div>
                     <h2 class="sticky-content-header bg-grey-lightest font-light top-8 sm:top-16 md:top-20 pt-6 pb-4 md:py-4 sm:text-3xl sticky text-2xl text-black z-20">Imagini</h2>
                     <div class="flex flex-wrap -m-4 py-4">
-                        <a href="/assets/img/rooms/1/double-room-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-chez-marcel-sinaia.jpg" alt="Cameră dublă cu baie proprie şi Smart TV cu Netflix la Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/suites/1/suite-ground-floor-room-1-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/suite-ground-floor-room-1-chez-marcel-sinaia.jpg" alt="Camera dubla cu baie proprie si Smart TV cu Netflix" class="shadow-lg">
                         </a>
                         <a href="/assets/img/rooms/1/double-room-bed-wardrobe-table-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-bed-wardrobe-table-chez-marcel-sinaia.jpg" alt="Pat, dulap şi măsuţă în cameră dublă la Chez Marcel Sinaia" class="shadow-lg">
+                            <img src="/assets/img/rooms/1/double-room-bed-wardrobe-table-chez-marcel-sinaia.jpg" alt="Pat, dulap si masuta in camera dubla la Chez Marcel Sinaia" class="shadow-lg">
                         </a>
                         <a href="/assets/img/rooms/1/double-room-entrance-view-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-entrance-view-chez-marcel-sinaia.jpg" alt="Intrare în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
+                            <img src="/assets/img/rooms/1/double-room-entrance-view-chez-marcel-sinaia.jpg" alt="Camera dubla parter Chez Marcel Sinaia" class="shadow-lg">
                         </a>
                         <a href="/assets/img/rooms/1/double-room-bed-detail-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-bed-detail-chez-marcel-sinaia.jpg" alt="Detaliu pat noptieră în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
+                            <img src="/assets/img/rooms/1/double-room-bed-detail-chez-marcel-sinaia.jpg" alt="Oh no, not again!" class="shadow-lg">
                         </a>
                         <a href="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" alt="Pat mare în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
+                            <img src="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" alt="Swan Lake" class="shadow-lg">
                         </a>
                         <a href="/assets/img/rooms/1/double-room-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" alt="Baie privată în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
+                            <img src="/assets/img/rooms/1/double-room-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" alt="Swan Lake" class="shadow-lg">
                         </a>
                         <a href="/assets/img/rooms/1/double-room-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" alt="Duş baie privată în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
+                            <img src="/assets/img/rooms/1/double-room-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" alt="Swan Lake" class="shadow-lg">
                         </a>
                         <a href="/assets/img/rooms/1/double-room-ground-floor-view-chez-marcel-sinaia.jpg" class="p-4 hover:opacity-90 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-ground-floor-view-chez-marcel-sinaia.jpg" alt="Vedere munte în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
+                            <img src="/assets/img/rooms/1/double-room-ground-floor-view-chez-marcel-sinaia.jpg" alt="Swan Lake" class="shadow-lg">
                         </a>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    pat mare, 160 cm lăţime
+                                    paturi mari, 160 cm lăţime
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -124,15 +124,15 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    dulap de haine
+                                    dulapuri de haine
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    cuier cu pălărier
+                                    cuiere cu pălărier
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    măsuță și taburete
+                                    măsuțe și taburete
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -151,7 +151,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    <strong>Smart TV de 81 cm</strong>
+                                    <strong>Smart TV-uri de 81 cm</strong>
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -189,15 +189,15 @@ slugs:
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        pat mare, de 160 cm
+                        paturi mari, de 160 cm
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        vedere spre grădină/foișor
+                        TV-uri de 81cm, cu <strong>Netflix</strong>, HBO, Look TV
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        TV de 81cm, cu <strong>Netflix</strong>, HBO, Look TV
+                        vedere spre grădină/foișor + curte interioară
                     </li>
                 </ul>
             </div>

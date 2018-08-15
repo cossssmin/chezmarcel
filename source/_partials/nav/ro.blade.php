@@ -1,4 +1,4 @@
-<nav class="nav flex items-center fixed w-full bg-footer z-30 h-12 sm:h-20 pin-r pin-t">
+<nav class="nav flex items-center fixed w-full bg-footer z-40 h-12 sm:h-20 pin-r pin-t">
     <div class="container flex items-center justify-between">
         <h1 class="font-pinyon font-light text-2xl sm:text-4xl">
             <a href="{{ $page->baseUrl }}/" class="antialiased text-white no-underline px-2">Chez Marcel</a>

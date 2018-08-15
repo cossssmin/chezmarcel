@@ -45,6 +45,7 @@ View the full documentation at https://tailwindcss.com.
 
 let colors = {
   'splash-logo': '#eee8dd',
+  'inherit': 'inherit',
 
   'footer': '#282828',
   'footer-light': '#585858',
@@ -815,9 +816,11 @@ module.exports = {
 
   opacity: {
     '0': '0',
+    '20': '.2',
     '25': '.25',
     '50': '.5',
     '75': '.75',
+    '90': '.9',
     '100': '1',
   },
 
@@ -882,11 +885,11 @@ module.exports = {
   modules: {
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
-    backgroundColors: ['responsive', 'hover'],
+    backgroundColors: ['responsive', 'hover', 'group-hover'],
     backgroundPosition: ['responsive'],
     backgroundRepeat: ['responsive'],
     backgroundSize: ['responsive'],
-    borderColors: ['responsive', 'hover'],
+    borderColors: ['responsive', 'hover', 'group-hover'],
     borderRadius: ['responsive'],
     borderStyle: ['responsive'],
     borderWidths: ['responsive'],
@@ -911,11 +914,11 @@ module.exports = {
     pointerEvents: ['responsive'],
     position: ['responsive'],
     resize: ['responsive'],
-    shadows: ['responsive', 'hover'],
+    shadows: ['responsive', 'hover', 'group-hover'],
     svgFill: [],
     svgStroke: [],
     textAlign: ['responsive'],
-    textColors: ['responsive', 'hover'],
+    textColors: ['responsive', 'hover', 'group-hover'],
     textSizes: ['responsive'],
     textStyle: ['responsive', 'hover'],
     tracking: ['responsive'],
