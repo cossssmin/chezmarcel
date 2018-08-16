@@ -1,7 +1,7 @@
 ---
 extends: _layouts.page
-title: Camera 1 (Dublă) la Chez Marcel | Cazare în centrul oraşului Sinaia
-description: Galerie foto şi facilităţi camera dublă 1 la Chez Marcel Sinaia
+title: Unu - Cameră Dublă la Chez Marcel | Cazare în centrul oraşului Sinaia
+description: Galerie foto şi facilităţi camera dublă la Chez Marcel Sinaia, Valea Prahovei
 slugs:
   ro: camere/1
   en: en/rooms/1
@@ -86,7 +86,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    geamuri tripan
+                                    geamuri termopan duble
                                 </li>
                             </ul>
                         </div>
@@ -185,7 +185,7 @@ slugs:
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        semnal Wi-Fi: 3/3
+                        semnal Wi-Fi: 💪💪<span class="opacity-25">💪</span>
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>

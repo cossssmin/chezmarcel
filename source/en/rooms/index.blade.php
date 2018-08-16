@@ -1,7 +1,7 @@
 ---
 extends: _layouts.page
 title: Rooms at Chez Marcel | Accommodation in central Sinaia
-description: Room photos and facilities at Chez Marcel Sinaia
+description: Room photos and facilities at Chez Marcel Sinaia, Prahova Valley
 slugs:
   ro: camere
   en: en/rooms
@@ -14,7 +14,7 @@ slugs:
 <header class="w-full bg-grey-lighter py-12 sm:py-20">
     <div class="container px-6">
         <h1 class="text-4xl sm:text-5xl font-light mb-2 -mt-3">Rooms</h1>
-        <p class="text-grey-dark">Choose the room type that fits you best</p>
+        <p class="text-grey-dark">Choose the room type that fits you or your family best</p>
     </div>
 </header>
 
@@ -80,7 +80,7 @@ slugs:
             <div class="sm:w-1/2 lg:w-1/3 px-6">
                 <figure class="shadow hover:shadow-lg rounded-b">
                     <a href="{{ $page->baseUrl }}/en/suites/1/" class="block text-black no-underline">
-                        <img src="https://placehold.it/1150x800" alt="" class="rounded-t">
+                        <img src="/assets/img/suites/1/suite-index-card.jpg" alt="" class="rounded-t">
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Two

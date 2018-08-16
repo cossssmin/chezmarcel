@@ -1,5 +1,6 @@
 ---
 extends: _layouts.master
+title: Chez Marcel | Accommodation in central Sinaia, Prahova Valley
 home: true
 ---
 

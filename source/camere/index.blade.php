@@ -1,7 +1,7 @@
 ---
 extends: _layouts.page
-title: Camere la Chez Marcel | Cazare in centrul orasului Sinaia
-description: Galerie foto si facilitati camere la Chez Marcel Sinaia
+title: Camere la Chez Marcel | Cazare în centrul oraşului Sinaia
+description: Galerie foto şi facilităţi camere la Chez Marcel Sinaia, Valea Prahovei
 slugs:
   ro: camere
   en: en/rooms
@@ -14,7 +14,7 @@ slugs:
 <header class="w-full bg-grey-lighter py-12 sm:py-20">
     <div class="container px-6">
         <h1 class="text-4xl sm:text-5xl font-light mb-2 -mt-3">Camere</h1>
-        <p class="text-grey-dark">Alege tipul de cameră care ți se potrivește</p>
+        <p class="text-grey-dark">Alege tipul de cameră care ți se potrivește ţie sau familiei tale</p>
     </div>
 </header>
 
@@ -97,7 +97,7 @@ slugs:
                 </div>
                 <figure class="shadow hover:shadow-lg rounded-b opacity-25 pointer-events-none">
                     <a href="{{ $page->baseUrl }}/suite/1/" class="block text-black no-underline">
-                        <img src="https://placehold.it/350x245?text=%20" alt="" class="rounded-t">
+                        <img src="/assets/img/rooms/coming-soon.jpg" alt="" class="rounded-t">
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Cinci

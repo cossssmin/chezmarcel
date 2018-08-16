@@ -1,10 +1,10 @@
 ---
 extends: _layouts.page
-title: One - Double Room at Chez Marcel | Accommodation in central Sinaia
-description: Photos and facilities for room One at Chez Marcel Sinaia, Prahova Valley
+title: Two - Family suite at Chez Marcel | Accommodation in central Sinaia
+description: Ground floor family suite photos and facilities at Chez Marcel Sinaia, Prahova Valley
 slugs:
-  ro: camere/1
-  en: en/rooms/1
+  ro: suite/1
+  en: en/suites/1
 ---
 
 @section('page')
@@ -13,8 +13,8 @@ slugs:
 
 <header class="w-full bg-grey-lighter py-12 sm:py-20">
     <div class="container px-6">
-        <h1 class="text-4xl sm:text-5xl font-light mb-2 -mt-3">One</h1>
-        <p class="text-grey-dark">Ground floor, view towards garden/pavilion and Mt. Baiului</p>
+        <h1 class="text-4xl sm:text-5xl font-light mb-2 -mt-3">Two</h1>
+        <p class="text-grey-dark">Ground floor, with views towards the garden/pavilion/Mt. Baiului, and the inner courtyard</p>
     </div>
 </header>
 
@@ -22,9 +22,9 @@ slugs:
     <div class="container flex flex-wrap px-6 text-grey-darker leading-normal">
         <article class="w-full md:w-3/5">
             <p>
-                <em>One</em> is a double room, on the ground floor of the villa.
-                It has a large bed, a private bathroom with toiletries included, table and stools, and a 81cm/32" Smart TV with cable and Netflix.
-                Plus, the shared kitchen and living room are closer 😉
+                <em>Two</em> is a family suite located on the ground floor of the villa.
+                Featuring two rooms with large beds, a bathroom with everything you need, tables with stools, and 81cm/32" Smart TVs with cable &amp; Netflix,
+                it's perfect for families that like to stay together 👨‍👩‍👧‍👦
             </p>
 
             <hr class="h-px bg-grey-light my-12 relative z-30">
@@ -32,29 +32,35 @@ slugs:
                 <div>
                     <h2 class="sticky-content-header bg-grey-lightest font-light top-8 sm:top-16 md:top-20 pt-6 pb-4 md:py-4 sm:text-3xl sticky text-2xl text-black z-20">Photos</h2>
                     <div class="flex flex-wrap -m-4 py-4">
-                        <a href="/assets/img/rooms/1/double-room-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-chez-marcel-sinaia.jpg" alt="Double room with private bathroom and Smart T with Netflix at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/suites/1/suite-ground-floor-room-1-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/suite-ground-floor-room-1-chez-marcel-sinaia.jpg" alt="Double bed in the first room of the family suite" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/1/double-room-bed-wardrobe-table-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-bed-wardrobe-table-chez-marcel-sinaia.jpg" alt="Bed, wardrobe and table in double room at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/suites/1/suite-ground-floor-room-1-bathroom-wardrobe-tv-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/suite-ground-floor-room-1-bathroom-wardrobe-tv-chez-marcel-sinaia.jpg" alt="Bed, wardrobe and table in the first room of the ground floor family suite" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/1/double-room-entrance-view-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-entrance-view-chez-marcel-sinaia.jpg" alt="Entering double room ground floor at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/suites/1/entering-family-suite-ground-floor-room-1--chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/entering-family-suite-ground-floor-room-1-chez-marcel-sinaia.jpg" alt="Entering the ground floor family suite" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/1/double-room-bed-detail-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-bed-detail-chez-marcel-sinaia.jpg" alt="Bedside lamp detail in double room at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" alt="Sink, mirror and heating in the private bathroom of the ground floor family suite" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" alt="Large bed in double room at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" alt="Shower and toilet in the ground floor family suite" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/1/double-room-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" alt="Private bathroom in double room at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/suites/1/family-suite-ground-floor-garden-mountain-view-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/family-suite-ground-floor-garden-mountain-view-chez-marcel-sinaia.jpg" alt="Garden, pavilion and Mt. Baiului view from the ground floor family suite" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/1/double-room-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" alt="Shower and toilet in double room at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/suites/1/suite-ground-floor-room-2-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/suite-ground-floor-room-2-chez-marcel-sinaia.jpg" alt="Second room of the ground floor family suite" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/1/double-room-ground-floor-view-chez-marcel-sinaia.jpg" class="p-4 hover:opacity-90 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-ground-floor-view-chez-marcel-sinaia.jpg" alt="Mountain view from ground floor double room at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/suites/1/entering-family-suite-ground-floor-room-2--chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/entering-family-suite-ground-floor-room-2-chez-marcel-sinaia.jpg" alt="Entering second room of ground floor family suite" class="shadow-lg">
+                        </a>
+                        <a href="/assets/img/suites/1/suite-ground-floor-room-2-bed-wardrobe-tv-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/suite-ground-floor-room-2-bed-wardrobe-tv-chez-marcel-sinaia.jpg" alt="Bed, wardrobe, table and TV in the second room of the ground floor family suite" class="shadow-lg">
+                        </a>
+                        <a href="/assets/img/suites/1/suite-ground-floor-room-2-wardrobe-tv-netflix-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/suite-ground-floor-room-2-wardrobe-tv-netflix-chez-marcel-sinaia.jpg" alt="Table, TV, and view inside wardrobe from the second room of the ground floor family suite" class="shadow-lg">
                         </a>
                     </div>
                 </div>
@@ -70,7 +76,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    large, 160cm/63" wide bed
+                                    2 x large, 160cm/63" wide bed
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -97,7 +103,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    private bathroom
+                                    1 x private bathroom
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -124,15 +130,15 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    wardrobe
+                                    2 x wardrobe
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    hanger with hat-stand
+                                    2 x hanger with hat-stand
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    table and stools
+                                    2 x table and stools
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -151,7 +157,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    81cm/32" Smart TV
+                                    2 x 81cm/32" Smart TV
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -185,19 +191,19 @@ slugs:
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        Wi-Fi strength: 💪💪<span class="opacity-25">💪</span>
+                        Wi-Fi strength: 💪💪💪
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        large, 160cm/63" wide bed
+                        large, 160cm/63" wide beds
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        garden, pavilion and Mt. Baiului view
+                        81cm/32" Smart TVs, with <strong>Netflix</strong> and HBO
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        81cm/32" Smart TV, with <strong>Netflix</strong> and HBO
+                        garden/pavilion, Mt. Baiului &amp; inner courtyard view
                     </li>
                 </ul>
             </div>
@@ -206,10 +212,10 @@ slugs:
 </section>
 
 @ctafooter
-    @slot('title') Like this <em>One</em>? @endslot
-    @slot('subtitle') Ask Marcel to book it for you <span class="block pt-6 text-xl">👇</span> @endslot
+    @slot('title') Want <em>Two</em> Book? @endslot
+    @slot('subtitle') Ask Marcel about this family suite <span class="block pt-6 text-xl">👇</span> @endslot
     @slot('url') {{ $page->baseUrl }}/en/contact/ @endslot
-    @slot('buttonLabel') Book now &rarr; @endslot
+    @slot('buttonLabel') I want 2 book &rarr; @endslot
 @endctafooter
 
 @include('_partials.footer.en')

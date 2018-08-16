@@ -1,7 +1,7 @@
 <nav class="nav flex items-center fixed w-full bg-footer z-40 h-12 sm:h-20 pin-r pin-t">
     <div class="container flex items-center justify-between">
         <h1 class="font-pinyon font-light text-2xl sm:text-4xl">
-            <a href="{{ $page->baseUrl }}/" class="antialiased text-white no-underline px-2">Chez Marcel</a>
+            <a href="{{ $page->baseUrl }}/en/" class="antialiased text-white no-underline px-2">Chez Marcel</a>
         </h1>
         <ul id="menu" class="absolute w-48 lg:w-auto lg:relative bg-footer hidden list-reset lg:flex md:justify-around pl-4 lg:p-1 xl:pr-0 md:w-1/3 mt-12 sm:mt-20 lg:mt-0 lg:-mr-2 pin-r pin-t text-right">
             <li>

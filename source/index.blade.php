@@ -1,5 +1,6 @@
 ---
 extends: _layouts.master
+title: Chez Marcel | Cazare în centrul oraşului Sinaia, Valea Prahovei
 home: true
 ---
 

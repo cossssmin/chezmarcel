@@ -6,16 +6,16 @@
         </span>
         <ul id="menu" class="hidden md:flex md:justify-around bg-footer list-reset w-48 md:w-1/3 md:mx-auto pl-4 text-right">
             <li>
-                <a href="{{ $page->baseUrl }}/rooms/" class="inline-block text-sm sm:text-base p-4">Rooms</a>
+                <a href="{{ $page->baseUrl }}/en/rooms/" class="inline-block text-sm sm:text-base p-4">Rooms</a>
             </li>
             <li>
-                <a href="{{ $page->baseUrl }}/facilities/" class="inline-block text-sm sm:text-base p-4">Facilities</a>
+                <a href="{{ $page->baseUrl }}/en/facilities/" class="inline-block text-sm sm:text-base p-4">Facilities</a>
             </li>
             <li>
-                <a href="{{ $page->baseUrl }}/photos/" class="inline-block text-sm sm:text-base p-4">Photos</a>
+                <a href="{{ $page->baseUrl }}/en/photos/" class="inline-block text-sm sm:text-base p-4">Photos</a>
             </li>
             <li>
-                <a href="{{ $page->baseUrl }}/contact/" class="inline-block text-sm sm:text-base p-4">Contact</a>
+                <a href="{{ $page->baseUrl }}/en/contact/" class="inline-block text-sm sm:text-base p-4">Contact</a>
             </li>
             <li class="hidden md:block md:fixed pin-r">
                 <a href="{{ $page->baseUrl }}/" class="inline-block text-sm sm:text-base p-4">RO</a>
