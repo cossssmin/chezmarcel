@@ -218,6 +218,6 @@ slugs:
     @slot('buttonLabel') Vreau să rezerv &rarr; @endslot
 @endctafooter
 
-@include('_partials.footer')
+@include('_partials.footer.ro')
 
 @endsection

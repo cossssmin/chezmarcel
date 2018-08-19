@@ -4,8 +4,33 @@ return [
     'baseUrl' => '',
     'production' => false,
     'collections' => [],
+    'company' => [
+        'name' => 'Chez Marcel',
+        'tagline' => [
+            'ro' => 'din 2018, în Sinaia',
+            'en' => 'since 2018, in Sinaia',
+        ],
+    ],
+    'contact' => [
+        'phones' => [
+            'cosmin' => [
+                'text' => '(+40) 724 063 033',
+                'href' => 'tel:+40724063033',
+            ],
+            'marcel' => [
+                'text' => '(+40) 728 696 329',
+                'href' => 'tel:+0728696329',
+            ],
+        ],
+        'email' => 'chezmarcelsinaia@gmail.com',
+        'address' => [
+            'ro' => '<p>Republicii 11, Sinaia</p><p>Prahova, România</p>',
+            'en' => '<p>11 Republicii, Sinaia</p><p>Prahova, Romania</p>',
+        ],
+    ],
     'links' => [
         'booking' => 'https://www.booking.com/hotel/ro/chez-marcel-sinaia.ro.html',
         'facebook' => 'https://www.facebook.com/chezmarcelsinaia/',
+        'gmaps' => 'https://goo.gl/maps/6fJpDF8KdCo',
     ],
 ];

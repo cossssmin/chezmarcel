@@ -93,9 +93,9 @@ slugs:
             </div>
             <div class="sm:w-1/2 lg:w-1/3 px-6 relative">
                 <div class="absolute flex items-center justify-center w-full h-full -mt-8 -ml-6">
-                    <span class="text-2xl text-red">În curând</span>
+                    <span class="text-lg font-bold uppercase text-black">În curând</span>
                 </div>
-                <figure class="shadow hover:shadow-lg rounded-b opacity-25 pointer-events-none">
+                <figure class="shadow hover:shadow-lg rounded-b opacity-20 pointer-events-none">
                     <a href="{{ $page->baseUrl }}/suite/1/" class="block text-black no-underline">
                         <img src="/assets/img/rooms/coming-soon.jpg" alt="" class="rounded-t">
                         <figcaption class="bg-white p-4 rounded-b">
@@ -119,6 +119,6 @@ slugs:
     @slot('buttonLabel') Vreau să rezerv &rarr; @endslot
 @endctafooter
 
-@include('_partials.footer')
+@include('_partials.footer.ro')
 
 @endsection
