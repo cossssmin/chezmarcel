@@ -1,3 +1,7 @@
+::selection {
+  @apply text-white bg-black;
+}
+
 .splash {
   background-image: url('/assets/img/forest-bg.jpg');
   background-size: cover;
@@ -57,4 +61,8 @@
 
 .sticky-content-header {
   box-shadow: 0px -49px 0px 49px config('colors.grey-lightest');
+}
+
+.bg-gradient-to-footer-cta {
+  background-image: linear-gradient(to bottom, #fff 1%,#f8fafc 100%);
 }

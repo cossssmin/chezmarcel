@@ -12,9 +12,6 @@
                 <a href="{{ $page->baseUrl }}/en/facilities/" class="inline-block text-sm sm:text-base p-4">Facilities</a>
             </li>
             <li>
-                <a href="{{ $page->baseUrl }}/en/photos/" class="inline-block text-sm sm:text-base p-4">Photos</a>
-            </li>
-            <li>
                 <a href="{{ $page->baseUrl }}/en/contact/" class="inline-block text-sm sm:text-base p-4">Contact</a>
             </li>
             <li class="hidden md:block md:fixed pin-r">

@@ -206,7 +206,7 @@ slugs:
 </section>
 
 @ctafooter
-    @slot('title') Like this <em>One</em>? @endslot
+    @slot('title') Like this <em>One</em> ? @endslot
     @slot('subtitle') Ask Marcel to book it for you <span class="block pt-6 text-xl">👇</span> @endslot
     @slot('url') {{ $page->baseUrl }}/en/contact/ @endslot
     @slot('buttonLabel') Book now &rarr; @endslot

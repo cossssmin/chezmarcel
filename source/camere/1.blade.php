@@ -206,7 +206,7 @@ slugs:
 </section>
 
 @ctafooter
-    @slot('title') Îți place Camera 1? @endslot
+    @slot('title') <em>Unu</em> e pe gustul tău? @endslot
     @slot('subtitle') Sună-l pe Marcel, să ți-o păstreze <span class="block pt-6 text-xl">👇</span> @endslot
     @slot('url') {{ $page->baseUrl }}/contact/ @endslot
     @slot('buttonLabel') Vreau să rezerv &rarr; @endslot

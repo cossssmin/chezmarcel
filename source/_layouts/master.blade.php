@@ -17,5 +17,16 @@
         @yield('content')
 
         <script src="{{ mix('/js/main.js') }}"></script>
+
+        @if($page->production)
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124343056-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124343056-1');
+        </script>
+        @endif
     </body>
 </html>
