@@ -128,7 +128,7 @@ slugs:
             <ul class="w-full md:w-1/2 list-reset leading-loose text-sm text-grey-darker md:pl-16">
                 <li class="pl-6">
                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                    woodwork handmade by Marcel himself
+                    woodwork handcrafted by Marcel
                 </li>
                 <li class="pl-6">
                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -152,10 +152,10 @@ slugs:
 </section>
 
 @ctafooter
-    @slot('title') Simple and fast bookings @endslot
-    @slot('subtitle') Call Marcel or book through Booking.com @endslot
-    @slot('url') {{ $page->baseUrl }}/en/contact/ @endslot
-    @slot('buttonLabel') I'll book &rarr; @endslot
+    @slot('title') See your accommodation options @endslot
+    @slot('subtitle') Select the room that fits you or your family best @endslot
+    @slot('url') {{ $page->baseUrl }}/en/rooms/ @endslot
+    @slot('buttonLabel') Select room &rarr; @endslot
 @endctafooter
 
 @include('_partials.footer.en')

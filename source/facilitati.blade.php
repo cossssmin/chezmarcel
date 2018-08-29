@@ -151,10 +151,10 @@ slugs:
 </section>
 
 @ctafooter
-    @slot('title') Rezervări simple și rapide @endslot
-    @slot('subtitle') Sună-l pe Marcel sau rezervă prin Booking.com @endslot
-    @slot('url') {{ $page->baseUrl }}/contact/ @endslot
-    @slot('buttonLabel') Vreau să rezerv &rarr; @endslot
+    @slot('title') Concediu în doi, sau cu familia? @endslot
+    @slot('subtitle') Alege camera care ți se potrivește ţie sau familiei tale @endslot
+    @slot('url') {{ $page->baseUrl }}/camere/ @endslot
+    @slot('buttonLabel') Alege camera &rarr; @endslot
 @endctafooter
 
 @include('_partials.footer.ro')

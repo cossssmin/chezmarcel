@@ -13,7 +13,7 @@ home: true
     <p class="text-right text-splash-logo -mt-2 italic z-10">{{ $page->company->tagline->en }}</p>
     <a
         href="{{ $page->baseUrl }}/en/rooms/"
-        class="border border-splash-logo hover:shadow-lg mt-16 no-underline px-4 py-2 md:px-6 md:py-3 rounded text-xs md:text-sm text-splash-logo z-10">
+        class="md:hidden border border-splash-logo hover:shadow-lg mt-16 no-underline px-4 py-2 md:px-6 md:py-3 rounded text-xs md:text-sm text-splash-logo z-10">
             See Rooms &rarr;
     </a>
 </div>
