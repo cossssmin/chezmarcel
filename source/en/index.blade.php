@@ -1,5 +1,5 @@
 ---
-extends: _layouts.master
+extends: _layouts.page
 title: Chez Marcel | Accommodation in central Sinaia, Romania
 description: Accommodation in central Sinaia, in a private villa with double rooms and family suites. Facilities include shared kitchen, living and pavilion + free Netflix.
 language: en
