@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://chezmarcel.ro',
+    'baseUrl' => 'https://www.chezmarcel.ro',
     'production' => true,
 ];
