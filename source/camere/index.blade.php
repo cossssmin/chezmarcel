@@ -1,7 +1,8 @@
 ---
 extends: _layouts.page
 title: Camere la Chez Marcel | Cazare în centrul oraşului Sinaia
-description: Galerie foto şi facilităţi camere la Chez Marcel Sinaia, Valea Prahovei
+description: Galerie foto şi facilităţi camere duble şi suite de familie la Chez Marcel Sinaia, Valea Prahovei
+language: ro
 slugs:
   ro: camere
   en: en/rooms

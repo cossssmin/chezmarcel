@@ -1,7 +1,8 @@
 ---
 extends: _layouts.page
 title: Facilities at Chez Marcel | Accommodation in central Sinaia, Romania
-description: Kitchen, living, pavilion, barbecue and other amenities at Chez Marcel Sinaia, Prahova Valley
+description: Kitchen, living room, pavilion, barbecue, Netflix and other amenities at Chez Marcel Sinaia, Prahova Valley
+language: en
 slugs:
   ro: facilitati
   en: en/facilities

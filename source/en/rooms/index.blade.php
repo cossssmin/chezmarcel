@@ -1,7 +1,8 @@
 ---
 extends: _layouts.page
 title: Rooms at Chez Marcel | Accommodation in central Sinaia, Romania
-description: Room photos and facilities at Chez Marcel Sinaia, Prahova Valley
+description: Dobule room and family suite photos and facilities at Chez Marcel Sinaia, Prahova Valley
+language: en
 slugs:
   ro: camere
   en: en/rooms

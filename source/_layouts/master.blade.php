@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full w-full">
+<html lang="{{ $page->language ?? 'ro' }}" class="h-full w-full">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,8 +7,10 @@
 
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 
-        <title>{{ $page->title ?? 'Chez Marcel | Cazare în centrul oraşului Sinaia' }}</title>
-        <meta name="description" content="{{ $page->description ?? 'Cazare Sinaia în vilă cu camere duble sau apartamente, cu băi proprii, bucătărie, living şi foisor' }}">
+        <title>{{ $page->title ?? 'Chez Marcel | Cazare în pensiune în centrul oraşului Sinaia' }}</title>
+        <meta name="description" content="<?php echo $page->description ?? 'Cazare în Sinaia, în vilă cu camere duble şi apartamente. Bucătărie, living şi foişor comune + Netflix gratuit.' ?>">
+
+        @yield('meta')
 
         <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">

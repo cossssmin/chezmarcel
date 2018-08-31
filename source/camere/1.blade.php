@@ -2,6 +2,7 @@
 extends: _layouts.page
 title: Unu - Cameră Dublă la Chez Marcel | Cazare în centrul oraşului Sinaia
 description: Galerie foto şi facilităţi camera dublă la Chez Marcel Sinaia, Valea Prahovei
+language: ro
 slugs:
   ro: camere/1
   en: en/rooms/1

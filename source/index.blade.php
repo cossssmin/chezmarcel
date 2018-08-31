@@ -1,6 +1,8 @@
 ---
 extends: _layouts.master
 title: Chez Marcel | Cazare în centrul oraşului Sinaia, Valea Prahovei
+description: Cazare în Sinaia, în vilă nouă cu camere duble şi suite de familie. Facilităţile includ bucătărie, living şi foişor comune + Netflix gratuit în fiecare cameră.
+language: ro
 home: true
 ---
 

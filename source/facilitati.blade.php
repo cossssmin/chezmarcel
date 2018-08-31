@@ -1,7 +1,8 @@
 ---
 extends: _layouts.page
 title: Facilităţi la Chez Marcel | Cazare în centrul oraşului Sinaia
-description: Bucătărie, cameră de zi, foişor, grătar şi alte facilităţi la Chez Marcel Sinaia, Valea Prahovei
+description: Bucătărie, living, foişor, grătar, Netflix şi alte facilităţi la Chez Marcel Sinaia, Valea Prahovei
+language: ro
 slugs:
   ro: facilitati
   en: en/facilities

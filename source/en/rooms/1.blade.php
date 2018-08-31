@@ -2,6 +2,7 @@
 extends: _layouts.page
 title: One - Double Room at Chez Marcel | Accommodation in central Sinaia, Romania
 description: Photos and facilities for room One at Chez Marcel Sinaia, Prahova Valley
+language: en
 slugs:
   ro: camere/1
   en: en/rooms/1

@@ -2,6 +2,7 @@
 extends: _layouts.page
 title: Two - Family suite at Chez Marcel | Accommodation in central Sinaia, Romania
 description: Ground floor family suite photos and facilities at Chez Marcel Sinaia, Prahova Valley
+language: en
 slugs:
   ro: suite/1
   en: en/suites/1

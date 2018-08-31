@@ -1,7 +1,8 @@
 ---
 extends: _layouts.page
 title: Contact and bookings at Chez Marcel | Accommodation in central Sinaia, Romania
-description: Contact information, direct bookings, and directions to Chez Marcel Sinaia, Prahova Valley
+description: Contact information, direct bookings, and map directions to Chez Marcel Sinaia, Prahova Valley
+language: en
 slugs:
   ro: contact
   en: en/contact
@@ -28,7 +29,7 @@ slugs:
             <hr class="h-px bg-grey-light my-12 relative z-30">
 
             <div>
-                <h2 class="font-light pb-8 sm:text-3xl text-2xl text-black">Bookings</h2>
+                <h2 class="font-light pb-8 sm:text-3xl text-2xl text-black" id="bookings">Bookings</h2>
                 <p class="pb-2">
                     For direct bookings, it's best that you give us a call at <a href="tel:+40743602363" class="text-inherit no-underline border-b hover:border-grey">+40 (743) 602 363</a>.
                 </p>
@@ -43,7 +44,7 @@ slugs:
                     <li>for holidays, special rates apply</li>
                 </ul>
 
-                <h2 class="font-light py-8 sm:text-3xl text-2xl text-black">Directions</h2>
+                <h2 class="font-light py-8 sm:text-3xl text-2xl text-black" id="map">Directions</h2>
                 <p class="pb-2">
                     Chez Marcel is located at 11 Republicii Blvd, in Sinaia, Prahova county, Romania.
                 </p>

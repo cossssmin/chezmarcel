@@ -1,7 +1,8 @@
 ---
 extends: _layouts.page
 title: Contact şi rezervări Chez Marcel | Cazare în centrul oraşului Sinaia
-description: Date de contact, rezervări, şi indicaţii de orientare la Chez Marcel Sinaia, Valea Prahovei
+description: Date de contact, rezervări directe, şi localizare pe hartă Chez Marcel Sinaia, Valea Prahovei
+language: ro
 slugs:
   ro: contact
   en: en/contact
@@ -28,7 +29,7 @@ slugs:
             <hr class="h-px bg-grey-light my-12 relative z-30">
 
             <div>
-                <h2 class="font-light pb-8 sm:text-3xl text-2xl text-black">Rezervări</h2>
+                <h2 class="font-light pb-8 sm:text-3xl text-2xl text-black" id="rezervari">Rezervări</h2>
                 <p class="pb-2">
                     Pentru rezervări directe, cel mai bine este să ne suni la <a href="tel:+40743602363" class="text-inherit no-underline border-b hover:border-grey">+40 (743) 602 363</a>.
                 </p>
@@ -43,7 +44,7 @@ slugs:
                     <li>de sărbători se aplică tarife speciale</li>
                 </ul>
 
-                <h2 class="font-light py-8 sm:text-3xl text-2xl text-black">Indicaţii de orientare</h2>
+                <h2 class="font-light py-8 sm:text-3xl text-2xl text-black" id="harta">Indicaţii de orientare</h2>
                 <p class="pb-2">
                     Chez Marcel se află în Sinaia, pe Bulevardul Republicii, la numărul 11.
                 </p>

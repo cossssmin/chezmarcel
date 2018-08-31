@@ -2,6 +2,7 @@
 extends: _layouts.page
 title: Suită pentru familie la Chez Marcel | Cazare în centrul oraşului Sinaia
 description: Galerie foto şi facilităţi suită pentru familie la Chez Marcel Sinaia, Valea Prahovei
+language: ro
 slugs:
   ro: suite/1
   en: en/suites/1
