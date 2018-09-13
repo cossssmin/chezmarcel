@@ -78,7 +78,7 @@ slugs:
         <h2 class="text-3xl font-light">Family Suites</h2>
 
         <div class="flex flex-wrap -mx-6 py-10">
-            <div class="sm:w-1/2 lg:w-1/3 px-6">
+            <div class="sm:w-1/2 lg:w-1/3 px-6 mb-12">
                 <figure class="shadow hover:shadow-lg rounded-b">
                     <a href="{{ $page->baseUrl }}/en/suites/1/" class="block text-black no-underline">
                         <img src="/assets/img/suites/1/suite-index-card.jpg" alt="" class="rounded-t">
