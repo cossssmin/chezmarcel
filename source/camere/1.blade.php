@@ -24,8 +24,8 @@ slugs:
         <article class="w-full md:w-3/5">
             <p>
                 <em>Unu</em> este o cameră dublă, situată la parterul vilei.
-                Are un pat mare, o baie cu tot ce e nevoie, măsuță cu taburete, și Smart TV de 81 cm, cu cablu + Netflix.
-                În plus, ajungi mai repede la bucătărie și în living 😉
+                Are un pat mare, o baie cu produse de toaletă, măsuță cu taburete, și Smart TV de 81 cm, cu cablu + Netflix.
+                Fereastra are deschidere spre grădină/foişor şi Munţii Baiului.
             </p>
 
             <hr class="h-px bg-grey-light my-12 relative z-30">
@@ -36,6 +36,9 @@ slugs:
                         <a href="/assets/img/rooms/1/double-room-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/rooms/1/double-room-chez-marcel-sinaia.jpg" alt="Cameră dublă cu baie proprie şi Smart TV cu Netflix la Chez Marcel Sinaia" class="shadow-lg">
                         </a>
+                        <a href="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" alt="Pat mare în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
+                        </a>
                         <a href="/assets/img/rooms/1/double-room-bed-wardrobe-table-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/rooms/1/double-room-bed-wardrobe-table-chez-marcel-sinaia.jpg" alt="Pat, dulap şi măsuţă în cameră dublă la Chez Marcel Sinaia" class="shadow-lg">
                         </a>
@@ -44,9 +47,6 @@ slugs:
                         </a>
                         <a href="/assets/img/rooms/1/double-room-bed-detail-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/rooms/1/double-room-bed-detail-chez-marcel-sinaia.jpg" alt="Detaliu pat noptieră în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
-                        </a>
-                        <a href="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" alt="Pat mare în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
                         </a>
                         <a href="/assets/img/rooms/1/double-room-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/rooms/1/double-room-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" alt="Baie privată în cameră dublă parter Chez Marcel Sinaia" class="shadow-lg">
@@ -102,15 +102,15 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    săpun, șampon, gel de duș
-                                </li>
-                                <li class="pl-6">
-                                    <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
                                     cască de duș
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
                                     uscător de păr
+                                </li>
+                                <li class="pl-6">
+                                    <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
+                                    săpun, șampon, gel de duș
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>

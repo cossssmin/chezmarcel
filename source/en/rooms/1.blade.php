@@ -25,7 +25,7 @@ slugs:
             <p>
                 <em>One</em> is a double room, on the ground floor of the villa.
                 It has a large bed, a private bathroom with toiletries included, table and stools, and a 81cm/32" Smart TV with cable and Netflix.
-                Plus, the shared kitchen and living room are closer 😉
+                Window view towards the pavilion and Mt. Baiului.
             </p>
 
             <hr class="h-px bg-grey-light my-12 relative z-30">
@@ -36,6 +36,9 @@ slugs:
                         <a href="/assets/img/rooms/1/double-room-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/rooms/1/double-room-chez-marcel-sinaia.jpg" alt="Double room with private bathroom and Smart T with Netflix at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
+                        <a href="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" alt="Large bed in double room at Chez Marcel Sinaia" class="shadow-lg">
+                        </a>
                         <a href="/assets/img/rooms/1/double-room-bed-wardrobe-table-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/rooms/1/double-room-bed-wardrobe-table-chez-marcel-sinaia.jpg" alt="Bed, wardrobe and table in double room at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
@@ -44,9 +47,6 @@ slugs:
                         </a>
                         <a href="/assets/img/rooms/1/double-room-bed-detail-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/rooms/1/double-room-bed-detail-chez-marcel-sinaia.jpg" alt="Bedside lamp detail in double room at Chez Marcel Sinaia" class="shadow-lg">
-                        </a>
-                        <a href="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/1/double-room-large-bed-chez-marcel-sinaia.jpg" alt="Large bed in double room at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
                         <a href="/assets/img/rooms/1/double-room-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/rooms/1/double-room-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" alt="Private bathroom in double room at Chez Marcel Sinaia" class="shadow-lg">

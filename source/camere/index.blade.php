@@ -28,7 +28,7 @@ slugs:
             <div class="sm:w-1/2 lg:w-1/3 px-6 mb-12">
                 <figure class="shadow hover:shadow-lg rounded-b">
                     <a href="{{ $page->baseUrl }}/camere/1/" class="block text-black no-underline">
-                        <img src="/assets/img/rooms/1/double-room-index-card.jpg" alt="Ground floor double room at Chez Marcel Sinaia" class="rounded-t">
+                        <img src="/assets/img/rooms/1/double-room-index-card.jpg" alt="Cameră dublă parter Chez Marcel Sinaia" class="rounded-t">
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Unu
