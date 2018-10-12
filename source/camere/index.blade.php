@@ -40,16 +40,13 @@ slugs:
                 </figure>
             </div>
             <div class="sm:w-1/2 lg:w-1/3 px-6 mb-12 relative">
-                <div class="absolute flex items-center justify-center w-full h-full -mt-8 -ml-6">
-                    <span class="text-lg font-bold uppercase text-black">În curând</span>
-                </div>
-                <figure class="shadow hover:shadow-lg rounded-b opacity-20 pointer-events-none">
+                <figure class="shadow hover:shadow-lg rounded-b">
                     <a href="{{ $page->baseUrl }}/camere/3/" class="block w-full text-black no-underline">
-                        <img src="/assets/img/rooms/coming-soon.jpg" alt="" class="rounded-t">
+                        <img src="/assets/img/rooms/3/double-room-3-index-card.jpg" alt="Cameră dublă etaj, cu balcon, la Chez Marcel Sinaia" class="rounded-t">
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Trei
-                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">etaj 1</span>
+                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">etaj</span>
                             </h3>
                             <p class="text-grey-dark text-sm">balcon mare cu vedere spre Cota 2000</p>
                         </figcaption>
@@ -66,7 +63,7 @@ slugs:
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Patru
-                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">etaj 1</span>
+                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">etaj</span>
                             </h3>
                             <p class="text-grey-dark text-sm">balcon cu vedere la grădină/foișor</p>
                         </figcaption>
@@ -102,7 +99,7 @@ slugs:
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Cinci
-                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">parter</span>
+                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">etaj</span>
                             </h3>
                             <p class="text-grey-dark text-sm">balcon cu vedere la grădină/foișor/curte interioară</p>
                         </figcaption>

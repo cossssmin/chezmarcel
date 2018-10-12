@@ -40,16 +40,13 @@ slugs:
                 </figure>
             </div>
             <div class="sm:w-1/2 lg:w-1/3 px-6 mb-12 relative">
-                <div class="absolute flex items-center justify-center w-full h-full -mt-8 -ml-6">
-                    <span class="text-lg font-bold uppercase text-black">Soon</span>
-                </div>
-                <figure class="shadow hover:shadow-lg rounded-b opacity-20 pointer-events-none">
+                <figure class="shadow hover:shadow-lg rounded-b">
                     <a href="{{ $page->baseUrl }}/en/rooms/3/" class="block w-full text-black no-underline">
-                        <img src="/assets/img/rooms/coming-soon.jpg" alt="" class="rounded-t">
+                        <img src="/assets/img/rooms/3/double-room-3-index-card.jpg" alt="First floor double room with large balcony at Chez Marcel Sinaia" class="rounded-t">
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Three
-                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">first floor</span>
+                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">upper floor</span>
                             </h3>
                             <p class="text-grey-dark text-sm">large balcony with Cota 2000 view</p>
                         </figcaption>
@@ -66,7 +63,7 @@ slugs:
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Four
-                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">first floor</span>
+                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">upper floor</span>
                             </h3>
                             <p class="text-grey-dark text-sm">balcony with garden/pavilion view</p>
                         </figcaption>
@@ -102,7 +99,7 @@ slugs:
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Five
-                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">first floor</span>
+                                <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">upper floor</span>
                             </h3>
                             <p class="text-grey-dark text-sm">with garden/pavilion/interior courtyard view</p>
                         </figcaption>
