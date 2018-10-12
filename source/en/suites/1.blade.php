@@ -24,7 +24,7 @@ slugs:
         <article class="w-full md:w-3/5">
             <p>
                 <em>Two</em> is a family suite located on the ground floor of the villa.
-                Featuring two rooms with large beds, a bathroom with everything you need, tables with stools, and 81cm/32" Smart TVs with cable &amp; Netflix,
+                Featuring two rooms with large beds, a bathroom with toiletries included, tables with stools, and 81cm/32" Smart TVs with cable &amp; Netflix,
                 it's perfect for families that like to stay together 👨‍👩‍👧‍👦
             </p>
 
@@ -33,20 +33,26 @@ slugs:
                 <div>
                     <h2 class="sticky-content-header bg-grey-lightest font-light top-8 sm:top-16 md:top-20 pt-6 pb-4 md:py-4 sm:text-3xl sticky text-2xl text-black z-20">Photos</h2>
                     <div class="flex flex-wrap -m-4 py-4">
+                        <a href="/assets/img/suites/1/entering-family-suite-ground-floor-room-1--chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/entering-family-suite-ground-floor-room-1-chez-marcel-sinaia.jpg" alt="Entering the ground floor family suite" class="shadow-lg">
+                        </a>
+                        <a href="/assets/img/suites/1/family-suite-ground-floor-room-1-bed-bathroom-access-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/family-suite-ground-floor-room-1-bed-bathroom-access-chez-marcel-sinaia.jpg" alt="Bed, bathroom and access for the ground floor family suite" class="shadow-lg">
+                        </a>
                         <a href="/assets/img/suites/1/suite-ground-floor-room-1-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/suite-ground-floor-room-1-chez-marcel-sinaia.jpg" alt="Double bed in the first room of the family suite" class="shadow-lg">
                         </a>
                         <a href="/assets/img/suites/1/suite-ground-floor-room-1-bathroom-wardrobe-tv-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/suite-ground-floor-room-1-bathroom-wardrobe-tv-chez-marcel-sinaia.jpg" alt="Bed, wardrobe and table in the first room of the ground floor family suite" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/suites/1/entering-family-suite-ground-floor-room-1--chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/suites/1/entering-family-suite-ground-floor-room-1-chez-marcel-sinaia.jpg" alt="Entering the ground floor family suite" class="shadow-lg">
-                        </a>
                         <a href="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" alt="Sink, mirror and heating in the private bathroom of the ground floor family suite" class="shadow-lg">
                         </a>
                         <a href="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" alt="Shower and toilet in the ground floor family suite" class="shadow-lg">
+                        </a>
+                        <a href="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-toiletries-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-toiletries-chez-marcel-sinaia.jpg" alt="Free toiletries included for the ground floor family suite" class="shadow-lg">
                         </a>
                         <a href="/assets/img/suites/1/family-suite-ground-floor-garden-mountain-view-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/family-suite-ground-floor-garden-mountain-view-chez-marcel-sinaia.jpg" alt="Garden, pavilion and Mt. Baiului view from the ground floor family suite" class="shadow-lg">
@@ -139,7 +145,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    2 x table and stools
+                                    2 x table and stools + <strong>fridge</strong>
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -216,7 +222,7 @@ slugs:
     @slot('title') Want <em>Two</em> Book? @endslot
     @slot('subtitle') Ask Marcel about this family suite <span class="block pt-6 text-xl">👇</span> @endslot
     @slot('url') {{ $page->baseUrl }}/en/contact/ @endslot
-    @slot('buttonLabel') I want 2 book &rarr; @endslot
+    @slot('buttonLabel') I want Two book &rarr; @endslot
 @endctafooter
 
 @include('_partials.footer.en')

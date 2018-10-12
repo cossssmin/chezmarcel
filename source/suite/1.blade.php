@@ -24,7 +24,7 @@ slugs:
         <article class="w-full md:w-3/5">
             <p>
                 <em>Doi</em> este o suită pentru familie, situată la parterul vilei.
-                Are două camere cu două paturi mari, o baie cu tot ce e nevoie, măsuțe cu taburete, și TV-uri Smart de 81 cm, ambele cu cablu + Netflix.
+                Are două camere cu două paturi mari, o baie cu tot ce e nevoie, măsuțe cu taburete, și TV-uri Smart de 81 cm, cu cablu + Netflix.
                 Perfectă pentru familiile care vor să stea împreună 👨‍👩‍👧‍👦
             </p>
 
@@ -33,20 +33,26 @@ slugs:
                 <div>
                     <h2 class="sticky-content-header bg-grey-lightest font-light top-8 sm:top-16 md:top-20 pt-6 pb-4 md:py-4 sm:text-3xl sticky text-2xl text-black z-20">Imagini</h2>
                     <div class="flex flex-wrap -m-4 py-4">
+                        <a href="/assets/img/suites/1/entering-family-suite-ground-floor-room-1-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/entering-family-suite-ground-floor-room-1-chez-marcel-sinaia.jpg" alt="Intrând în suita pentru familie de la parter" class="shadow-lg">
+                        </a>
+                        <a href="/assets/img/suites/1/family-suite-ground-floor-room-1-bed-bathroom-access-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/family-suite-ground-floor-room-1-bed-bathroom-access-chez-marcel-sinaia.jpg" alt="Pat, baie şi acces pentru suita de familie de la parter" class="shadow-lg">
+                        </a>
                         <a href="/assets/img/suites/1/suite-ground-floor-room-1-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/suite-ground-floor-room-1-chez-marcel-sinaia.jpg" alt="Pat dublu în camera de trecere a suitei pentru familie" class="shadow-lg">
                         </a>
                         <a href="/assets/img/suites/1/suite-ground-floor-room-1-bathroom-wardrobe-tv-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/suite-ground-floor-room-1-bathroom-wardrobe-tv-chez-marcel-sinaia.jpg" alt="Pat, dulap şi măsuţă în camera 1 din suita pentru familie de la parter" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/suites/1/entering-family-suite-ground-floor-room-1--chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/suites/1/entering-family-suite-ground-floor-room-1-chez-marcel-sinaia.jpg" alt="Intrând în suita pentru familie de la parter" class="shadow-lg">
-                        </a>
                         <a href="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" alt="Chiuvetă, oglindă şi calorifer în baia privată din suita de familie de la parter" class="shadow-lg">
                         </a>
                         <a href="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" alt="Duş şi toaletă din suita pentru familie de la parter" class="shadow-lg">
+                        </a>
+                        <a href="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-toiletries-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/suites/1/family-suite-ground-floor-private-bathroom-toiletries-chez-marcel-sinaia.jpg" alt="Articole de toaletă gratuite, din suita pentru familie de la parter" class="shadow-lg">
                         </a>
                         <a href="/assets/img/suites/1/family-suite-ground-floor-garden-mountain-view-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
                             <img src="/assets/img/suites/1/family-suite-ground-floor-garden-mountain-view-chez-marcel-sinaia.jpg" alt="Vedere spre grădină, foişor şi Munţii Baiului, din suita de familie de la parter" class="shadow-lg">
@@ -139,7 +145,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    2 x măsuță și taburete
+                                    2 x măsuță și taburete + <strong>frigider</strong>
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
