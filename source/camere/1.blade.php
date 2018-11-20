@@ -24,7 +24,7 @@ slugs:
         <article class="w-full md:w-3/5">
             <p>
                 <em>Unu</em> este o cameră dublă, situată la parterul vilei.
-                Are un pat mare, o baie cu produse de toaletă, măsuță cu taburete, și Smart TV de 81 cm, cu cablu + Netflix.
+                Are un pat mare, frigider, o baie cu produse de toaletă, măsuță cu taburete, și Smart TV de 81 cm, cu cablu + Netflix.
                 Fereastra are deschidere spre grădină/foişor şi Munţii Baiului.
             </p>
 
@@ -71,7 +71,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    pat mare, 160 cm lăţime
+                                    pat mare, 160x200 cm
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -133,11 +133,11 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    măsuță și taburete
+                                    prize şi veioze lângă pat
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    prize şi veioze lângă pat
+                                    măsuță și taburete + <strong>frigider</strong>
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -190,7 +190,7 @@ slugs:
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        pat mare, de 160 cm
+                        pat mare, de 160x200 cm
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -198,7 +198,7 @@ slugs:
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        TV de 81cm, cu <strong>Netflix</strong>, HBO, Look TV
+                        Smart TV de 81cm, cu <strong>Netflix</strong> şi HBO
                     </li>
                 </ul>
             </div>

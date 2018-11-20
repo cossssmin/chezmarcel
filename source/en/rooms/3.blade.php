@@ -24,7 +24,7 @@ slugs:
         <article class="w-full md:w-3/5">
             <p>
                 <em>Three</em> is a double room with a large balcony, on the upper floor of the villa.
-                It has a large bed, a private bathroom with toiletries included, table and stools, and a 81cm/32" Smart TV with cable and Netflix.
+                It has a large bed, a private bathroom with toiletries included, table and stools + fridge, and a 81cm (32") Smart TV with cable and Netflix.
                 Balcony view towards Mt. Bucegi and the inner courtyard.
             </p>
 
@@ -80,7 +80,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    large, 160cm/63" wide bed
+                                    160x200cm (63x79") bed
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -142,11 +142,11 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    table and stools + <strong>fridge</strong>
+                                    bedside sockets &amp; lamps
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    bedside sockets &amp; lamps
+                                    table and stools + <strong>fridge</strong>
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -161,7 +161,7 @@ slugs:
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                                    81cm/32" Smart TV
+                                    81cm (32") Smart TV
                                 </li>
                                 <li class="pl-6">
                                     <svg class="fill-current -ml-6 w-3 mr-2 text-green group-hover:text-blue-lighter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -199,7 +199,7 @@ slugs:
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        large, 160cm/63" wide bed
+                        large, 160x200cm (63x79") bed
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -207,7 +207,7 @@ slugs:
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        81cm/32" Smart TV, with <strong>Netflix</strong> and HBO
+                        81cm (32") Smart TV, with <strong>Netflix</strong> and HBO
                     </li>
                 </ul>
             </div>
@@ -216,7 +216,7 @@ slugs:
 </section>
 
 @ctafooter
-    @slot('title') Threelled about it? @endslot
+    @slot('title') <em>Threelled</em> about it? @endslot
     @slot('subtitle') Ask Marcel to book it for you <span class="block pt-6 text-xl">👇</span> @endslot
     @slot('url') {{ $page->baseUrl }}/en/contact/ @endslot
     @slot('buttonLabel') Book now &rarr; @endslot
