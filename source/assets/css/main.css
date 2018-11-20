@@ -753,6 +753,10 @@ table {
   background-image: linear-gradient(to bottom, #fff 1%, #f8fafc 100%);
 }
 
+.cursor-help {
+  cursor: help;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;
@@ -782,6 +786,10 @@ table {
 
 .bg-inherit {
   background-color: inherit;
+}
+
+.bg-booking-genius {
+  background-color: #febb02;
 }
 
 .bg-footer {
@@ -1104,6 +1112,10 @@ table {
   background-color: inherit;
 }
 
+.group:hover .group-hover\:bg-booking-genius {
+  background-color: #febb02;
+}
+
 .group:hover .group-hover\:bg-footer {
   background-color: #282828;
 }
@@ -1422,6 +1434,10 @@ table {
 
 .hover\:bg-inherit:hover {
   background-color: inherit;
+}
+
+.hover\:bg-booking-genius:hover {
+  background-color: #febb02;
 }
 
 .hover\:bg-footer:hover {
@@ -1816,6 +1832,10 @@ table {
   border-color: inherit;
 }
 
+.border-booking-genius {
+  border-color: #febb02;
+}
+
 .border-footer {
   border-color: #282828;
 }
@@ -2136,6 +2156,10 @@ table {
   border-color: inherit;
 }
 
+.group:hover .group-hover\:border-booking-genius {
+  border-color: #febb02;
+}
+
 .group:hover .group-hover\:border-footer {
   border-color: #282828;
 }
@@ -2454,6 +2478,10 @@ table {
 
 .hover\:border-inherit:hover {
   border-color: inherit;
+}
+
+.hover\:border-booking-genius:hover {
+  border-color: #febb02;
 }
 
 .hover\:border-footer:hover {
@@ -3538,6 +3566,10 @@ table {
 
 .leading-loose {
   line-height: 2;
+}
+
+.leading-full {
+  line-height: 100%;
 }
 
 .m-0 {
@@ -5582,6 +5614,10 @@ table {
   color: inherit;
 }
 
+.text-booking-genius {
+  color: #febb02;
+}
+
 .text-footer {
   color: #282828;
 }
@@ -5902,6 +5938,10 @@ table {
   color: inherit;
 }
 
+.group:hover .group-hover\:text-booking-genius {
+  color: #febb02;
+}
+
 .group:hover .group-hover\:text-footer {
   color: #282828;
 }
@@ -6220,6 +6260,10 @@ table {
 
 .hover\:text-inherit:hover {
   color: inherit;
+}
+
+.hover\:text-booking-genius:hover {
+  color: #febb02;
 }
 
 .hover\:text-footer:hover {
@@ -6954,6 +6998,10 @@ table {
     background-color: inherit;
   }
 
+  .sm\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .sm\:bg-footer {
     background-color: #282828;
   }
@@ -7274,6 +7322,10 @@ table {
     background-color: inherit;
   }
 
+  .group:hover .sm\:group-hover\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .group:hover .sm\:group-hover\:bg-footer {
     background-color: #282828;
   }
@@ -7592,6 +7644,10 @@ table {
 
   .sm\:hover\:bg-inherit:hover {
     background-color: inherit;
+  }
+
+  .sm\:hover\:bg-booking-genius:hover {
+    background-color: #febb02;
   }
 
   .sm\:hover\:bg-footer:hover {
@@ -7978,6 +8034,10 @@ table {
     border-color: inherit;
   }
 
+  .sm\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .sm\:border-footer {
     border-color: #282828;
   }
@@ -8298,6 +8358,10 @@ table {
     border-color: inherit;
   }
 
+  .group:hover .sm\:group-hover\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .group:hover .sm\:group-hover\:border-footer {
     border-color: #282828;
   }
@@ -8616,6 +8680,10 @@ table {
 
   .sm\:hover\:border-inherit:hover {
     border-color: inherit;
+  }
+
+  .sm\:hover\:border-booking-genius:hover {
+    border-color: #febb02;
   }
 
   .sm\:hover\:border-footer:hover {
@@ -9700,6 +9768,10 @@ table {
 
   .sm\:leading-loose {
     line-height: 2;
+  }
+
+  .sm\:leading-full {
+    line-height: 100%;
   }
 
   .sm\:m-0 {
@@ -11728,6 +11800,10 @@ table {
     color: inherit;
   }
 
+  .sm\:text-booking-genius {
+    color: #febb02;
+  }
+
   .sm\:text-footer {
     color: #282828;
   }
@@ -12048,6 +12124,10 @@ table {
     color: inherit;
   }
 
+  .group:hover .sm\:group-hover\:text-booking-genius {
+    color: #febb02;
+  }
+
   .group:hover .sm\:group-hover\:text-footer {
     color: #282828;
   }
@@ -12366,6 +12446,10 @@ table {
 
   .sm\:hover\:text-inherit:hover {
     color: inherit;
+  }
+
+  .sm\:hover\:text-booking-genius:hover {
+    color: #febb02;
   }
 
   .sm\:hover\:text-footer:hover {
@@ -13101,6 +13185,10 @@ table {
     background-color: inherit;
   }
 
+  .md\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .md\:bg-footer {
     background-color: #282828;
   }
@@ -13421,6 +13509,10 @@ table {
     background-color: inherit;
   }
 
+  .group:hover .md\:group-hover\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .group:hover .md\:group-hover\:bg-footer {
     background-color: #282828;
   }
@@ -13739,6 +13831,10 @@ table {
 
   .md\:hover\:bg-inherit:hover {
     background-color: inherit;
+  }
+
+  .md\:hover\:bg-booking-genius:hover {
+    background-color: #febb02;
   }
 
   .md\:hover\:bg-footer:hover {
@@ -14125,6 +14221,10 @@ table {
     border-color: inherit;
   }
 
+  .md\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .md\:border-footer {
     border-color: #282828;
   }
@@ -14445,6 +14545,10 @@ table {
     border-color: inherit;
   }
 
+  .group:hover .md\:group-hover\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .group:hover .md\:group-hover\:border-footer {
     border-color: #282828;
   }
@@ -14763,6 +14867,10 @@ table {
 
   .md\:hover\:border-inherit:hover {
     border-color: inherit;
+  }
+
+  .md\:hover\:border-booking-genius:hover {
+    border-color: #febb02;
   }
 
   .md\:hover\:border-footer:hover {
@@ -15847,6 +15955,10 @@ table {
 
   .md\:leading-loose {
     line-height: 2;
+  }
+
+  .md\:leading-full {
+    line-height: 100%;
   }
 
   .md\:m-0 {
@@ -17875,6 +17987,10 @@ table {
     color: inherit;
   }
 
+  .md\:text-booking-genius {
+    color: #febb02;
+  }
+
   .md\:text-footer {
     color: #282828;
   }
@@ -18195,6 +18311,10 @@ table {
     color: inherit;
   }
 
+  .group:hover .md\:group-hover\:text-booking-genius {
+    color: #febb02;
+  }
+
   .group:hover .md\:group-hover\:text-footer {
     color: #282828;
   }
@@ -18513,6 +18633,10 @@ table {
 
   .md\:hover\:text-inherit:hover {
     color: inherit;
+  }
+
+  .md\:hover\:text-booking-genius:hover {
+    color: #febb02;
   }
 
   .md\:hover\:text-footer:hover {
@@ -19248,6 +19372,10 @@ table {
     background-color: inherit;
   }
 
+  .lg\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .lg\:bg-footer {
     background-color: #282828;
   }
@@ -19568,6 +19696,10 @@ table {
     background-color: inherit;
   }
 
+  .group:hover .lg\:group-hover\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .group:hover .lg\:group-hover\:bg-footer {
     background-color: #282828;
   }
@@ -19886,6 +20018,10 @@ table {
 
   .lg\:hover\:bg-inherit:hover {
     background-color: inherit;
+  }
+
+  .lg\:hover\:bg-booking-genius:hover {
+    background-color: #febb02;
   }
 
   .lg\:hover\:bg-footer:hover {
@@ -20272,6 +20408,10 @@ table {
     border-color: inherit;
   }
 
+  .lg\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .lg\:border-footer {
     border-color: #282828;
   }
@@ -20592,6 +20732,10 @@ table {
     border-color: inherit;
   }
 
+  .group:hover .lg\:group-hover\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .group:hover .lg\:group-hover\:border-footer {
     border-color: #282828;
   }
@@ -20910,6 +21054,10 @@ table {
 
   .lg\:hover\:border-inherit:hover {
     border-color: inherit;
+  }
+
+  .lg\:hover\:border-booking-genius:hover {
+    border-color: #febb02;
   }
 
   .lg\:hover\:border-footer:hover {
@@ -21994,6 +22142,10 @@ table {
 
   .lg\:leading-loose {
     line-height: 2;
+  }
+
+  .lg\:leading-full {
+    line-height: 100%;
   }
 
   .lg\:m-0 {
@@ -24022,6 +24174,10 @@ table {
     color: inherit;
   }
 
+  .lg\:text-booking-genius {
+    color: #febb02;
+  }
+
   .lg\:text-footer {
     color: #282828;
   }
@@ -24342,6 +24498,10 @@ table {
     color: inherit;
   }
 
+  .group:hover .lg\:group-hover\:text-booking-genius {
+    color: #febb02;
+  }
+
   .group:hover .lg\:group-hover\:text-footer {
     color: #282828;
   }
@@ -24660,6 +24820,10 @@ table {
 
   .lg\:hover\:text-inherit:hover {
     color: inherit;
+  }
+
+  .lg\:hover\:text-booking-genius:hover {
+    color: #febb02;
   }
 
   .lg\:hover\:text-footer:hover {
@@ -25395,6 +25559,10 @@ table {
     background-color: inherit;
   }
 
+  .xl\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .xl\:bg-footer {
     background-color: #282828;
   }
@@ -25715,6 +25883,10 @@ table {
     background-color: inherit;
   }
 
+  .group:hover .xl\:group-hover\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .group:hover .xl\:group-hover\:bg-footer {
     background-color: #282828;
   }
@@ -26033,6 +26205,10 @@ table {
 
   .xl\:hover\:bg-inherit:hover {
     background-color: inherit;
+  }
+
+  .xl\:hover\:bg-booking-genius:hover {
+    background-color: #febb02;
   }
 
   .xl\:hover\:bg-footer:hover {
@@ -26419,6 +26595,10 @@ table {
     border-color: inherit;
   }
 
+  .xl\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .xl\:border-footer {
     border-color: #282828;
   }
@@ -26739,6 +26919,10 @@ table {
     border-color: inherit;
   }
 
+  .group:hover .xl\:group-hover\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .group:hover .xl\:group-hover\:border-footer {
     border-color: #282828;
   }
@@ -27057,6 +27241,10 @@ table {
 
   .xl\:hover\:border-inherit:hover {
     border-color: inherit;
+  }
+
+  .xl\:hover\:border-booking-genius:hover {
+    border-color: #febb02;
   }
 
   .xl\:hover\:border-footer:hover {
@@ -28141,6 +28329,10 @@ table {
 
   .xl\:leading-loose {
     line-height: 2;
+  }
+
+  .xl\:leading-full {
+    line-height: 100%;
   }
 
   .xl\:m-0 {
@@ -30169,6 +30361,10 @@ table {
     color: inherit;
   }
 
+  .xl\:text-booking-genius {
+    color: #febb02;
+  }
+
   .xl\:text-footer {
     color: #282828;
   }
@@ -30489,6 +30685,10 @@ table {
     color: inherit;
   }
 
+  .group:hover .xl\:group-hover\:text-booking-genius {
+    color: #febb02;
+  }
+
   .group:hover .xl\:group-hover\:text-footer {
     color: #282828;
   }
@@ -30807,6 +31007,10 @@ table {
 
   .xl\:hover\:text-inherit:hover {
     color: inherit;
+  }
+
+  .xl\:hover\:text-booking-genius:hover {
+    color: #febb02;
   }
 
   .xl\:hover\:text-footer:hover {
@@ -31542,6 +31746,10 @@ table {
     background-color: inherit;
   }
 
+  .xxl\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .xxl\:bg-footer {
     background-color: #282828;
   }
@@ -31862,6 +32070,10 @@ table {
     background-color: inherit;
   }
 
+  .group:hover .xxl\:group-hover\:bg-booking-genius {
+    background-color: #febb02;
+  }
+
   .group:hover .xxl\:group-hover\:bg-footer {
     background-color: #282828;
   }
@@ -32180,6 +32392,10 @@ table {
 
   .xxl\:hover\:bg-inherit:hover {
     background-color: inherit;
+  }
+
+  .xxl\:hover\:bg-booking-genius:hover {
+    background-color: #febb02;
   }
 
   .xxl\:hover\:bg-footer:hover {
@@ -32566,6 +32782,10 @@ table {
     border-color: inherit;
   }
 
+  .xxl\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .xxl\:border-footer {
     border-color: #282828;
   }
@@ -32886,6 +33106,10 @@ table {
     border-color: inherit;
   }
 
+  .group:hover .xxl\:group-hover\:border-booking-genius {
+    border-color: #febb02;
+  }
+
   .group:hover .xxl\:group-hover\:border-footer {
     border-color: #282828;
   }
@@ -33204,6 +33428,10 @@ table {
 
   .xxl\:hover\:border-inherit:hover {
     border-color: inherit;
+  }
+
+  .xxl\:hover\:border-booking-genius:hover {
+    border-color: #febb02;
   }
 
   .xxl\:hover\:border-footer:hover {
@@ -34288,6 +34516,10 @@ table {
 
   .xxl\:leading-loose {
     line-height: 2;
+  }
+
+  .xxl\:leading-full {
+    line-height: 100%;
   }
 
   .xxl\:m-0 {
@@ -36316,6 +36548,10 @@ table {
     color: inherit;
   }
 
+  .xxl\:text-booking-genius {
+    color: #febb02;
+  }
+
   .xxl\:text-footer {
     color: #282828;
   }
@@ -36636,6 +36872,10 @@ table {
     color: inherit;
   }
 
+  .group:hover .xxl\:group-hover\:text-booking-genius {
+    color: #febb02;
+  }
+
   .group:hover .xxl\:group-hover\:text-footer {
     color: #282828;
   }
@@ -36954,6 +37194,10 @@ table {
 
   .xxl\:hover\:text-inherit:hover {
     color: inherit;
+  }
+
+  .xxl\:hover\:text-booking-genius:hover {
+    color: #febb02;
   }
 
   .xxl\:hover\:text-footer:hover {

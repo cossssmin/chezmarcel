@@ -46,6 +46,7 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   'splash-logo': '#eee8dd',
   'inherit': 'inherit',
+  'booking-genius': '#febb02',
 
   'footer': '#282828',
   'footer-light': '#585858',
@@ -323,6 +324,7 @@ module.exports = {
     'tight': 1.25,
     'normal': 1.5,
     'loose': 2,
+    'full': '100%',
   },
 
 

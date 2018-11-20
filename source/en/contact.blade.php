@@ -1,7 +1,7 @@
 ---
 extends: _layouts.page
 title: Contact and bookings at Chez Marcel | Accommodation in central Sinaia, Romania
-description: Contact information, direct bookings, and map directions to Chez Marcel Sinaia, Prahova Valley
+description: Contact information, bookings, and map directions to Chez Marcel Sinaia, Prahova Valley
 language: en
 slugs:
   ro: contact
@@ -30,7 +30,19 @@ slugs:
 
             <div>
                 <h2 class="font-light pb-8 sm:text-3xl text-2xl text-black" id="bookings">Bookings</h2>
-                <p class="pb-2">
+                <p class="pb-6">
+                    Reservations are handled exclusively through Booking.com.
+                    Check prices by clicking the button below - you will be redirected to Booking.com, where you will need to specify your stay dates.
+                </p>
+                <p class="pb-6">
+                    <a href="https://www.booking.com/hotel/ro/chez-marcel-sinaia.ro.html#availability_target" class="bg-blue hover:bg-blue-darker text-white font-bold px-4 py-2 no-underline border-2 border-white shadow" target="_blank">Check available rooms</a>
+                </p>
+                <h3 class="font-light text-base uppercase text-black my-4">Notes</h3>
+                <ul>
+                    <li>We only accept credit card payments on Booking.com</li>
+                    <li>If you're a <span class="inline-block rounded-tl rounded-bl bg-booking-genius text-white text-sm px-2 py-1 leading-full font-semibold cursor-help" title="You're a GENIUS member if you booked at least two times on Booking.com, in the last year">.genius</span> Booking.com member, you get a 10% discount!</li>
+                </ul>
+                {{-- <p class="pb-2">
                     For direct bookings, it's best that you give us a call at <a href="tel:+40743602363" class="text-inherit no-underline border-b hover:border-grey">+40 (743) 602 363</a>.
                 </p>
                 <p class="pb-2">
@@ -42,8 +54,7 @@ slugs:
                     <li>for direct bookings - without Booking.com - a 50% deposit is required upfront</li>
                     <li>bookings are subject to availability</li>
                     <li>for holidays, special rates apply</li>
-                </ul>
-
+                </ul> --}}
                 <h2 class="font-light py-8 sm:text-3xl text-2xl text-black" id="map">Directions</h2>
                 <p class="pb-2">
                     Chez Marcel is located at 11 Republicii Blvd, in Sinaia, Prahova county, Romania.
