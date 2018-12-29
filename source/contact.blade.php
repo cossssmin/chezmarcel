@@ -23,7 +23,7 @@ slugs:
     <div class="container flex flex-wrap px-6 text-grey-darker leading-normal">
         <article class="w-full md:w-3/5">
             <p>
-                Ne poţi contacta atât telefonic şi prin email, cât şi pe WhatsApp sau <a href="https://www.facebook.com/chezmarcelsinaia/" class="text-inherit no-underline border-b hover:border-grey" target="_blank" rel="nofollow noopener">Facebook</a>.
+                Ne poţi contacta atât telefonic şi prin email, cât şi pe WhatsApp.
             </p>
 
             <hr class="h-px bg-grey-light my-12 relative z-30">
