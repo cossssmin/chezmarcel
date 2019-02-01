@@ -17,10 +17,6 @@ return [
                 'text' => '+40 (743) 602 363',
                 'href' => 'tel:+40743602363',
             ],
-            'marcel' => [
-                'text' => '(+40) 728 696 329',
-                'href' => 'tel:+0728696329',
-            ],
         ],
         'email' => 'chezmarcelsinaia@gmail.com',
         'address' => [
