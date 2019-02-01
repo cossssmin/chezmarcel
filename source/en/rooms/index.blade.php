@@ -34,7 +34,7 @@ slugs:
                                 One
                                 <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">ground floor</span>
                             </h3>
-                            <p class="text-grey-dark text-sm">with garden/pavilion view</p>
+                            <p class="text-grey-dark text-sm">with mountain and garden/pavilion view</p>
                         </figcaption>
                     </a>
                 </figure>
@@ -54,18 +54,15 @@ slugs:
                 </figure>
             </div>
             <div class="sm:w-1/2 lg:w-1/3 px-6 mb-12 relative">
-                <div class="absolute flex items-center justify-center w-full h-full -mt-8 -ml-6">
-                    <span class="text-lg font-bold uppercase text-black">Soon</span>
-                </div>
-                <figure class="shadow hover:shadow-lg rounded-b opacity-20 pointer-events-none">
+                <figure class="shadow hover:shadow-lg rounded-b">
                     <a href="{{ $page->baseUrl }}/en/rooms/4/" class="block text-black no-underline">
-                        <img src="/assets/img/rooms/coming-soon.jpg" alt="" class="rounded-t">
+                        <img src="/assets/img/rooms/4/double-room-4-index-card.jpg" alt="First floor double room with balcony and mountain view at Chez Marcel Sinaia" class="rounded-t">
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Four
                                 <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">upper floor</span>
                             </h3>
-                            <p class="text-grey-dark text-sm">balcony with garden/pavilion view</p>
+                            <p class="text-grey-dark text-sm">balcony with mountain and garden/pavilion view</p>
                         </figcaption>
                     </a>
                 </figure>
@@ -84,7 +81,7 @@ slugs:
                                 Two
                                 <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">ground floor</span>
                             </h3>
-                            <p class="text-grey-dark text-sm">with garden/pavilion/interior courtyard view</p>
+                            <p class="text-grey-dark text-sm">with garden/pavilion + interior courtyard view</p>
                         </figcaption>
                     </a>
                 </figure>

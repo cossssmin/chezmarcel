@@ -1,11 +1,11 @@
 ---
 extends: _layouts.page
-title: Three - Double Room With Large Balcony at Chez Marcel | Accommodation in central Sinaia, Romania
-description: Photos and facilities for double room with large balcony at Chez Marcel Sinaia, Prahova Valley
+title: Three - Double Room With Balcony and Mountain View at Chez Marcel | Accommodation in central Sinaia, Romania
+description: Photos and facilities for double room with balcony and mountain view at Chez Marcel Sinaia, Prahova Valley
 language: en
 slugs:
-  ro: camere/3
-  en: en/rooms/3
+  ro: camere/4
+  en: en/rooms/4
 ---
 
 @section('page')
@@ -14,8 +14,8 @@ slugs:
 
 <header class="w-full bg-grey-lighter py-12 sm:py-20">
     <div class="container px-6">
-        <h1 class="text-4xl sm:text-5xl font-light mb-2 -mt-3">Three</h1>
-        <p class="text-grey-dark">Upper floor, with balcony view towards Mt. Bucegi</p>
+        <h1 class="text-4xl sm:text-5xl font-light mb-2 -mt-3">Four</h1>
+        <p class="text-grey-dark">Upper floor, with balcony and view towards Mt. Baiului</p>
     </div>
 </header>
 
@@ -23,9 +23,9 @@ slugs:
     <div class="container flex flex-wrap px-6 text-grey-darker leading-normal">
         <article class="w-full md:w-3/5">
             <p>
-                <em>Three</em> is a double room with a large balcony, on the upper floor of the villa.
+                <em>Four</em> is a double room with a balcony, on the upper floor of the villa.
                 It has a large bed, a private bathroom with toiletries included, table and stools + fridge, and a 81cm (32") Smart TV with cable and Netflix.
-                Balcony view towards Mt. Bucegi and the inner courtyard.
+                Balcony view towards Mt. Baiului and the garden with pavilion.
             </p>
 
             <hr class="h-px bg-grey-light my-12 relative z-30">
@@ -33,38 +33,38 @@ slugs:
                 <div>
                     <h2 class="sticky-content-header bg-grey-lightest font-light top-8 sm:top-16 md:top-20 pt-6 pb-4 md:py-4 sm:text-3xl sticky text-2xl text-black z-20">Photos</h2>
                     <div class="flex flex-wrap -m-4 py-4">
-                        <a href="/assets/img/rooms/3/double-room-3-with-balcony-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-with-balcony-chez-marcel-sinaia.jpg" alt="Double room with large balcony at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-from-entrance-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-from-entrance-chez-marcel-sinaia.jpg" alt="Entering the double room with balcony and mountain view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-large-bed-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-large-bed-chez-marcel-sinaia.jpg" alt="Wide bed in double room with large balcony at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-bed-tv-netflix-bathroom-entrance-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-bed-tv-netflix-bathroom-entrance-chez-marcel-sinaia.jpg" alt="Bed, Smart TV with Netflix TV, table, and bathroom in double room with balcony and mountain view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-table-tv-balcony-access-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-table-tv-balcony-access-chez-marcel-sinaia.jpg" alt="Table, Smart TV with Netflix, and balcony access in double room at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-bed-fridge-wardrobe-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-bed-fridge-wardrobe-chez-marcel-sinaia.jpg" alt="Double room with balcony and mountain view facilities overview, including fridge, at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-entrance-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-entrance-chez-marcel-sinaia.jpg" alt="Entering the double room with large balcony at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-bed-detail-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-bed-detail-chez-marcel-sinaia.jpg" alt="Wide bed close-up in double room with balcony and mountain view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-artwork-detail-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-artwork-detail-chez-marcel-sinaia.jpg" alt="Artwork detail in double room with large balcony at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-bed-bathroom-entrance-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-bed-bathroom-entrance-chez-marcel-sinaia.jpg" alt="Double room with balcony and mountain view entrance and bathroom view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-private-bathroom-sink-mirror-chez-marcel-sinaia.jpg" alt="Private bathroom in double room with large balcony at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-bed-level-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-bed-level-chez-marcel-sinaia.jpg" alt="Bedside view detail in double room with balcony and mountain view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-private-bathroom-shower-toilet-chez-marcel-sinaia.jpg" alt="Shower in double room with large balcony at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-bedside-lamp-detail-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-bedside-lamp-detail-chez-marcel-sinaia.jpg" alt="Bedside lamp detail in double room with balcony and mountain view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-private-bathroom-toiletries-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-private-bathroom-toiletries-chez-marcel-sinaia.jpg" alt="Free toiletries in double room with large balcony at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-bathroom-overview-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-bathroom-overview-chez-marcel-sinaia.jpg" alt="Bathroom overview in double room with balcony and mountain view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-balcony-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-balcony-chez-marcel-sinaia.jpg" alt="Large balcony for double room at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-bathroom-washer-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-bathroom-washer-chez-marcel-sinaia.jpg" alt="Bathroom washer and heating in double room with balcony and mountain view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-balcony-top-view-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-balcony-top-view-chez-marcel-sinaia.jpg" alt="Top view of double room's large balcony at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-shower-toilet-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-shower-toilet-chez-marcel-sinaia.jpg" alt="Shower and toilet in double room with balcony and mountain view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
-                        <a href="/assets/img/rooms/3/double-room-3-balcony-mountains-view-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
-                            <img src="/assets/img/rooms/3/double-room-3-balcony-mountains-view-chez-marcel-sinaia.jpg" alt="Mt. Bucegi view from the balcony at Chez Marcel Sinaia" class="shadow-lg">
+                        <a href="/assets/img/rooms/4/double-room-4-bathroom-toiletries-chez-marcel-sinaia.jpg" class="p-4 lg:pointer-events-none">
+                            <img src="/assets/img/rooms/4/double-room-4-bathroom-toiletries-chez-marcel-sinaia.jpg" alt="Free toiletries in double room with balcony and mountain view at Chez Marcel Sinaia" class="shadow-lg">
                         </a>
                     </div>
                 </div>
@@ -203,7 +203,7 @@ slugs:
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
-                        Mt. Bucegi and inner courtyard view
+                        Mt. Baiului and garden/pavilion view
                     </li>
                     <li class="pl-6">
                         <svg class="fill-current -ml-6 w-3 mr-2 text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>
@@ -216,8 +216,8 @@ slugs:
 </section>
 
 @ctafooter
-    @slot('title') <em>Threelled</em> about it? @endslot
-    @slot('subtitle') Ask Marcel to book it for you <span class="block pt-6 text-xl">👇</span> @endslot
+    @slot('title') Is this <em>Four</em> you? @endslot
+    @slot('subtitle') Ask Marcel to book it now <span class="block pt-6 text-xl">👇</span> @endslot
     @slot('url') {{ $page->baseUrl }}/en/contact/ @endslot
     @slot('buttonLabel') Book now &rarr; @endslot
 @endctafooter

@@ -34,7 +34,7 @@ slugs:
                                 Unu
                                 <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">parter</span>
                             </h3>
-                            <p class="text-grey-dark text-sm">cu vedere la grădină/foișor</p>
+                            <p class="text-grey-dark text-sm">cu vedere la munte şi grădină/foișor</p>
                         </figcaption>
                     </a>
                 </figure>
@@ -54,18 +54,15 @@ slugs:
                 </figure>
             </div>
             <div class="sm:w-1/2 lg:w-1/3 px-6 mb-12 relative">
-                <div class="absolute flex items-center justify-center w-full h-full -mt-8 -ml-6">
-                    <span class="text-lg font-bold uppercase text-black">În curând</span>
-                </div>
-                <figure class="shadow hover:shadow-lg rounded-b opacity-20 pointer-events-none">
+                <figure class="shadow hover:shadow-lg rounded-b">
                     <a href="{{ $page->baseUrl }}/camere/4/" class="block text-black no-underline">
-                        <img src="/assets/img/rooms/coming-soon.jpg" alt="" class="rounded-t">
+                        <img src="/assets/img/rooms/4/double-room-4-index-card.jpg" alt="Cameră dublă la etaj, cu balcon şi vedere la munte, la Chez Marcel Sinaia" class="rounded-t">
                         <figcaption class="bg-white p-4 rounded-b">
                             <h3 class="flex justify-between text-base mb-4">
                                 Patru
                                 <span class="font-normal leading-normal text-xxs text-white bg-blue p-px px-1 rounded-full uppercase">etaj</span>
                             </h3>
-                            <p class="text-grey-dark text-sm">balcon cu vedere la grădină/foișor</p>
+                            <p class="text-grey-dark text-sm">balcon cu vedere la munte şi grădină/foișor</p>
                         </figcaption>
                     </a>
                 </figure>
