@@ -40,29 +40,22 @@ slugs:
                 <h3 class="font-light text-base uppercase text-black my-4">Notes</h3>
                 <ul>
                     <li>We only accept credit card payments on Booking.com</li>
-                    <li>If you're a <span class="inline-block rounded-tl rounded-bl bg-booking-genius text-white text-sm px-2 py-1 leading-full font-semibold cursor-help" title="You're a GENIUS member if you booked at least two times on Booking.com, in the last year">.genius</span> Booking.com member, you get a 10% discount!</li>
+                    <li>If you're a <span class="inline-block rounded-tl rounded-bl bg-booking-genius text-white text-sm px-2 py-1 leading-full font-semibold cursor-help" title="You're a GENIUS member if you booked at least two times on Booking.com">.genius</span> Booking.com member, you get a 10% discount!</li>
                 </ul>
-                {{-- <p class="pb-2">
-                    For direct bookings, it's best that you give us a call at <a href="tel:+40743602363" class="text-inherit no-underline border-b hover:border-grey">+40 (743) 602 363</a>.
-                </p>
-                <p class="pb-2">
-                    If you want to pay with a card, <a href="https://www.booking.com/hotel/ro/chez-marcel-sinaia.ro.html" target="_blank" rel="nofollow noopener" class="text-inherit no-underline border-b hover:border-grey">book instantly through Booking.com</a>
-                </p>
-                <h3 class="font-light text-base uppercase text-black my-4">Notes</h3>
-                <ul>
-                    <li>prices are dynamic - for an estimate, see <a href="https://www.booking.com/hotel/ro/chez-marcel-sinaia.ro.html" target="_blank" rel="nofollow noopener" class="text-inherit no-underline border-b hover:border-grey">Chez Marcel Sinaia on Booking</a></li>
-                    <li>for direct bookings - without Booking.com - a 50% deposit is required upfront</li>
-                    <li>bookings are subject to availability</li>
-                    <li>for holidays, special rates apply</li>
-                </ul> --}}
                 <h2 class="font-light py-8 sm:text-3xl text-2xl text-black" id="map">Directions</h2>
                 <p class="pb-2">
                     Chez Marcel is located at 11 Republicii Blvd, in Sinaia, Prahova county, Romania.
                 </p>
-                <p class="pb-8">
-                    From street level, access the inner courtyard (by foot or by car) using the ramp on the right side of the Casa Noastra restaurant. Follow it all the way, and you'll recognize the building.
-                </p>
                 <div class="-mx-6 sm:mx-0">
+                    <h3 class="font-light py-8 sm:text-3xl text-xl text-black">Entrance from street level</h3>
+                    <p class="pb-8">
+                        From street level, access the inner courtyard (by foot or by car) using the ramp on the right side of the Casa Noastra restaurant. Follow it all the way, and you'll recognize the building.
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1549035788807!6m8!1m7!1s3CIW2yEMsDw50gE5Ts20Fg!2m2!1d45.34380306203104!2d25.54835926717609!3f51.24213267421409!4f-2.5873329581139615!5f1.1924812503605782" height="450" frameborder="0"  class="border-0 w-full" allowfullscreen></iframe>
+                    <h3 class="font-light py-8 sm:text-3xl text-xl text-black">Map view</h3>
+                    <p class="pb-8">
+                        Note: in order to help suggest the correct route for Google Maps/Waze (that is Bld. Republicii, not Calea Prahovei), the pin on this map is not placed <em>exactly</em> on top of the building.
+                    </p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.1315718750229!2d25.548201731175713!3d45.34419160692475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b3178db9b1ff99%3A0x2deb07ffe2e28e2e!2sChez+Marcel+Sinaia!5e0!3m2!1sro!2sro!4v1535567425114" height="450" frameborder="0" class="border-0 w-full" allowfullscreen></iframe>
                 </div>
             </div>

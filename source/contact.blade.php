@@ -23,7 +23,7 @@ slugs:
     <div class="container flex flex-wrap px-6 text-grey-darker leading-normal">
         <article class="w-full md:w-3/5">
             <p>
-                Ne poţi contacta atât telefonic şi prin email, cât şi pe WhatsApp.
+                Ne poţi contacta atât telefonic, cât şi prin email sau WhatsApp.
             </p>
 
             <hr class="h-px bg-grey-light my-12 relative z-30">
@@ -46,16 +46,22 @@ slugs:
                             <li>Booking.com nu acceptă carduri special emise pentru vouchere (ex. Edenred).</li>
                         </ul>
                     </li>
-                    <li>Dacă eşti client <span class="inline-block rounded-tl rounded-bl bg-booking-genius text-white text-sm px-2 py-1 leading-full font-semibold cursor-help" title="Eşti client GENIUS dacă ai făcut cel puţin două rezervări pe Booking.com în ultimul an">.genius</span> pe Booking.com, vei primi un discount de 10%!</li>
+                    <li>Dacă eşti client <span class="inline-block rounded-tl rounded-bl bg-booking-genius text-white text-sm px-2 py-1 leading-full font-semibold cursor-help" title="Eşti client GENIUS dacă ai făcut cel puţin două rezervări pe Booking.com">.genius</span> pe Booking.com, vei primi un discount de 10%!</li>
                 </ul>
                 <h2 class="font-light py-8 sm:text-3xl text-2xl text-black" id="harta">Indicaţii de orientare</h2>
                 <p class="pb-2">
                     Chez Marcel se află în Sinaia, pe Bulevardul Republicii, la numărul 11.
                 </p>
-                <p class="pb-8">
-                    Accesul se face, inclusiv cu maşina, pe panta din partea dreaptă a restaurantului Casa Noastră (pe lângă terasă). Urmăreşte drumul de acces până la capăt, şi vei ajunge în curtea interioară unde vei recunoaşte clădirea.
-                </p>
                 <div class="-mx-6 sm:mx-0">
+                    <h3 class="font-light py-8 sm:text-3xl text-xl text-black">Acces din stradă</h3>
+                    <p class="pb-8">
+                        Accesul se face, inclusiv cu maşina, pe panta din partea dreaptă a restaurantului Casa Noastră (pe lângă terasă). Urmăreşte drumul de acces până la capăt, şi vei ajunge în curtea interioară unde vei recunoaşte clădirea.
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1549035788807!6m8!1m7!1s3CIW2yEMsDw50gE5Ts20Fg!2m2!1d45.34380306203104!2d25.54835926717609!3f51.24213267421409!4f-2.5873329581139615!5f1.1924812503605782" height="450" frameborder="0"  class="border-0 w-full" allowfullscreen></iframe>
+                    <h3 class="font-light py-8 sm:text-3xl text-xl text-black">Harta</h3>
+                    <p class="pb-8">
+                        Atenţie: pentru a sugera ruta corectă pentru Google Maps/Waze (şi anume pe Bld. Republicii, nu pe Calea Prahovei), pin-ul de pe hartă nu este plasat <em>exact</em> pe clădire.
+                    </p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.1315718750229!2d25.548201731175713!3d45.34419160692475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b3178db9b1ff99%3A0x2deb07ffe2e28e2e!2sChez+Marcel+Sinaia!5e0!3m2!1sro!2sro!4v1535567425114" height="450" frameborder="0" class="border-0 w-full" allowfullscreen></iframe>
                 </div>
             </div>
