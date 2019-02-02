@@ -60,8 +60,10 @@ slugs:
     </div>
     <div class="w-full flex flex-no-wrap overflow-auto scrolling-touch">
         <img src="/assets/img/kitchen/kitchen-1.jpg" alt="Bucătărie comună la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
-        <img src="/assets/img/kitchen/kitchen-2.jpg" alt="Cafetieră, prăjitor de pâine în bucătăria comună la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/kitchen/kitchen-2.jpg" alt="Cafetieră, prăjitor de pâine, fierbător în bucătăria comună la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
         <img src="/assets/img/kitchen/kitchen-3.jpg" alt="Intrând din curtea interioară în bucătăria comună la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/kitchen/kitchen-4.jpg" alt="Masă cu patru locuri în bucătăria de la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/kitchen/kitchen-5.jpg" alt="Bucătărie utilată complet, la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
     </div>
 </section>
 
@@ -107,8 +109,11 @@ slugs:
     </div>
     <div class="w-full flex flex-no-wrap overflow-auto scrolling-touch">
         <img src="/assets/img/living/living-1.jpg" alt="Camera de zi comună la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
-        <img src="/assets/img/living/living-2.jpg" alt="TV 4K, Netflix şi jocuri în camera de zi la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
-        <img src="/assets/img/living/living-3.jpg" alt="Masă de dining şi acces etaj 1 din camera de zi la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-2.jpg" alt="TV 4K, Netflix, Xbox, şi jocuri în camera de zi la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-3.jpg" alt="Detaliu decor camera de zi la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-4.jpg" alt="TV 4K cu Xbox şi Netflix la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-5.jpg" alt="Masă de dining şi acces etaj 1 din camera de zi la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-6.jpg" alt="Vedere de ansamblu camera de zi la Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
     </div>
 </section>
 

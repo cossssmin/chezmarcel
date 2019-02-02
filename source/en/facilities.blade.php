@@ -60,8 +60,10 @@ slugs:
     </div>
     <div class="w-full flex flex-no-wrap overflow-auto scrolling-touch">
         <img src="/assets/img/kitchen/kitchen-1.jpg" alt="Shared kitchen at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
-        <img src="/assets/img/kitchen/kitchen-2.jpg" alt="Coffee machine, toaster in the shared kitchen at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/kitchen/kitchen-2.jpg" alt="Coffee machine, toaster, kettle in the shared kitchen at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
         <img src="/assets/img/kitchen/kitchen-3.jpg" alt="Entering the shared kitchen from the inner courtyard at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/kitchen/kitchen-4.jpg" alt="Kitchen table with seats for four at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/kitchen/kitchen-5.jpg" alt="Fully equiped kitchen, at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
     </div>
 </section>
 
@@ -107,8 +109,11 @@ slugs:
     </div>
     <div class="w-full flex flex-no-wrap overflow-auto scrolling-touch">
         <img src="/assets/img/living/living-1.jpg" alt="Shared living room at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
-        <img src="/assets/img/living/living-2.jpg" alt="4K TV, Netflix, Xbox and board games in the shared living room at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
-        <img src="/assets/img/living/living-3.jpg" alt="Dining table and first floor stairs access from the shared living room at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-2.jpg" alt="4K TV, Netflix, Xbox, and board games in the shared living room at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-3.jpg" alt="Decor detail in the living room at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-4.jpg" alt="4K TV with Xbox and Netflix at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-5.jpg" alt="Dining table and first floor access in the living room at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
+        <img src="/assets/img/living/living-6.jpg" alt="Living room overview at Chez Marcel Sinaia" class="w-full h-full lg:w-1/2 -ml-4 lg:ml-0 flex-no-grow flex-no-shrink align-middle">
     </div>
 </section>
 
