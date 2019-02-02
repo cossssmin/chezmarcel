@@ -1,6 +1,6 @@
-# Chez Marcel
+<h1>Chez Marcel <a href='https://app.netlify.com/sites/chezmarcel/deploys'><img align="right" src="https://api.netlify.com/api/v1/badges/9e8a5cf9-94c9-4319-9e5d-2a0b14d63063/deploy-status"></a></h1>
 
-Website for [chezmarcel.ro](https://chezmarcel.ro), built with [Jigsaw](http://jigsaw.tighten.co/) and [Tailwind CSS](https://tailwindcss.com/).
+Website for [Chez Marcel Sinaia](https://chezmarcel.ro), built with [Jigsaw](http://jigsaw.tighten.co/) and [Tailwind CSS](https://tailwindcss.com/). Hosted with [Netlify](https://www.netlify.com/).
 
 ## Requirements
 
