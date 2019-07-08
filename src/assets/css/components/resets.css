@@ -1,0 +1,27 @@
+::selection {
+  @apply text-white bg-black;
+}
+
+.vc-title {
+  @apply capitalize;
+}
+
+.menu-item {
+  @apply relative py-4;
+}
+
+.menu-item::after {
+  @apply absolute inset-0 w-full h-full bg-no-repeat bg-contain transition-opacity opacity-0;
+  background-image: url('https://res.cloudinary.com/chezmarcelsinaia/image/upload/v1559760658/cloud.png');
+  background-position: 0 24px;
+  content: "";
+}
+
+.menu-item:hover::after {
+  @apply opacity-100;
+}
+
+.bg-footer {
+  @apply bg-no-repeat;
+  background-image: url('https://res.cloudinary.com/chezmarcelsinaia/image/upload/v1558803104/footer-bg.jpg');
+}
