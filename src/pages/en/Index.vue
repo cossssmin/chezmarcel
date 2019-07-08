@@ -225,16 +225,14 @@ export default {
       title: `${this.config.siteName} | Accommodation in central Sinaia, Romania`,
       meta: [
         { property: "og:type", content: 'website' },
-        { property: "og:title", content: this.config.siteName },
-        { property: "og:description", content: this.config.siteDescription },
+        { property: "og:title", content: `${this.config.siteName} | Accommodation in central Sinaia, Romania` },
+        { property: "og:description", content: 'Accommodation in central Sinaia, in a private villa with double rooms and family suites. Facilities include shared kitchen, living and pavilion + free Netflix.' },
         { property: "og:url", content: this.config.siteUrl },
         { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: this.config.siteName },
-        { name: "twitter:description", content: this.config.siteDescription },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
+        { name: "twitter:title", content: `${this.config.siteName} | Accommodation in central Sinaia, Romania` },
+        { name: "twitter:description", content: 'Accommodation in central Sinaia, in a private villa with double rooms and family suites. Facilities include shared kitchen, living and pavilion + free Netflix.' },
         { name: "twitter:image", content: this.ogImageUrl },
       ],
     }

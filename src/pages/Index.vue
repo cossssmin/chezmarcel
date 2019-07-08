@@ -221,16 +221,14 @@ export default {
       title: `${this.config.siteName} | Cazare în centrul oraşului Sinaia`,
       meta: [
         { property: "og:type", content: 'website' },
-        { property: "og:title", content: this.config.siteName },
+        { property: "og:title", content: `${this.config.siteName} | Cazare în centrul oraşului Sinaia` },
         { property: "og:description", content: this.config.siteDescription },
         { property: "og:url", content: this.config.siteUrl },
         { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: this.config.siteName },
+        { name: "twitter:title", content: `${this.config.siteName} | Cazare în centrul oraşului Sinaia` },
         { name: "twitter:description", content: this.config.siteDescription },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
         { name: "twitter:image", content: this.ogImageUrl },
       ],
     }
