@@ -24,7 +24,6 @@ module.exports = {
       options: {
         path: 'content/rooms/ro/**/*.md',
         typeName: 'Camera',
-        route: '/camere/:id',
       }
     },
     {
@@ -32,7 +31,6 @@ module.exports = {
       options: {
         path: 'content/rooms/en/**/*.md',
         typeName: 'Room',
-        route: '/en/rooms/:id',
       }
     },
     {
@@ -48,6 +46,11 @@ module.exports = {
       }
     },
   ],
+
+  templates: {
+    Camera: '/camere/:id',
+    Room: '/en/rooms/:id',
+  },
 
   chainWebpack: config => {
     config.module
