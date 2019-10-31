@@ -218,17 +218,17 @@ export default {
   },
   metaInfo () {
     return {
-      title: `${this.config.siteName} | Cazare în centrul oraşului Sinaia`,
+      title: `${this.$static.metadata.siteName} | Cazare în centrul oraşului Sinaia`,
       meta: [
         { property: "og:type", content: 'website' },
-        { property: "og:title", content: `${this.config.siteName} | Cazare în centrul oraşului Sinaia` },
-        { property: "og:description", content: this.config.siteDescription },
-        { property: "og:url", content: this.config.siteUrl },
+        { property: "og:title", content: `${this.$static.metadata.siteName} | Cazare în centrul oraşului Sinaia` },
+        { property: "og:description", content: this.$static.metadata.siteDescription },
+        { property: "og:url", content: this.$static.metadata.siteUrl },
         { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: `${this.config.siteName} | Cazare în centrul oraşului Sinaia` },
-        { name: "twitter:description", content: this.config.siteDescription },
+        { name: "twitter:title", content: `${this.$static.metadata.siteName} | Cazare în centrul oraşului Sinaia` },
+        { name: "twitter:description", content: this.$static.metadata.siteDescription },
         { name: "twitter:image", content: this.ogImageUrl },
       ],
     }
@@ -279,4 +279,13 @@ export default {
     }
   }
 </page-query>
+
+<static-query>
+query {
+  metadata {
+    siteName
+    siteDescription
+  }
+}
+</static-query>
 

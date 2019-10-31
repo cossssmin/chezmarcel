@@ -222,16 +222,16 @@ export default {
   },
   metaInfo () {
     return {
-      title: `${this.config.siteName} | Accommodation in central Sinaia, Romania`,
+      title: `${this.$static.metadata.siteName} | Accommodation in central Sinaia, Romania`,
       meta: [
         { property: "og:type", content: 'website' },
-        { property: "og:title", content: `${this.config.siteName} | Accommodation in central Sinaia, Romania` },
+        { property: "og:title", content: `${this.$static.metadata.siteName} | Accommodation in central Sinaia, Romania` },
         { property: "og:description", content: 'Accommodation in central Sinaia, in a private villa with double rooms and family suites. Facilities include shared kitchen, living and pavilion + free Netflix.' },
-        { property: "og:url", content: this.config.siteUrl },
+        { property: "og:url", content: this.$static.metadata.siteUrl },
         { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: `${this.config.siteName} | Accommodation in central Sinaia, Romania` },
+        { name: "twitter:title", content: `${this.$static.metadata.siteName} | Accommodation in central Sinaia, Romania` },
         { name: "twitter:description", content: 'Accommodation in central Sinaia, in a private villa with double rooms and family suites. Facilities include shared kitchen, living and pavilion + free Netflix.' },
         { name: "twitter:image", content: this.ogImageUrl },
       ],
@@ -283,4 +283,13 @@ export default {
     }
   }
 </page-query>
+
+<static-query>
+query {
+  metadata {
+    siteName
+    siteDescription
+  }
+}
+</static-query>
 
