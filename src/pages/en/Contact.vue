@@ -7,8 +7,8 @@
       </header>
       <article class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16">
         <div class="markdown text-xl leading-normal text-gray-900">
-          <p>You can call or WhatsApp us at <a href="tel:+40743602363" class="border-b hover:border-gray-500">+40 (743) 602 363</a></p>
-          <p>Prefer sending us an email? <a href="mailto:chezmarcelsinaia@gmail.com" class="border-b hover:border-gray-500">chezmarcelsinaia@gmail.com</a></p>
+          <p>You can call or WhatsApp us at <a href="tel:+40743602363" class="border-b hover:border-gray-500 text-blue-500"><strong>+40 (743) 602 363</strong></a></p>
+          <p>Prefer email? <a href="mailto:chezmarcelsinaia@gmail.com" class="border-b hover:border-gray-500">chezmarcelsinaia@gmail.com</a></p>
           <h2 id="bookings">Bookings</h2>
           <p>Bookings are handled exclusively through <a href="https://www.booking.com/hotel/ro/chez-marcel-sinaia.html#availability_target" target="_blank" class="text-blue-600">Booking.com &nearr;</a></p>
           <h6>Notes:</h6>
@@ -39,7 +39,10 @@
           <h3 id="map">Map</h3>
           <p>Find us on Waze and Google Maps by searching for <em>Chez Marcel Sinaia</em> :</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.1315718750229!2d25.548201731175713!3d45.34419160692475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b3178db9b1ff99%3A0x2deb07ffe2e28e2e!2sChez+Marcel+Sinaia!5e0!3m2!1sro!2sro!4v1535567425114" height="450" frameborder="0" class="border-0 w-full" allowfullscreen></iframe>
-         <div class="font-sans text-base bg-blue-200 text-blue-700 p-4 rounded my-8 sm:mb-0">In order to suggest the correct navigation route - through Republicii Blvd., not the yellow E60 beltway - the pin on the map is not placed <em>exactly</em> on top of the building.</div>
+          <div class="font-sans text-base bg-blue-200 text-blue-700 p-4 rounded my-8 sm:mb-0">In order to suggest the correct navigation route - through Republicii Blvd., not the yellow E60 beltway - the pin on the map is not placed <em>exactly</em> on top of the building.</div>
+          <hr>
+          <p class="mt-6 font-bold"><span class="text-green-600">We recommend Waze</span> - currently, it's the only app that shows the correct access road, from Republicii street level to our inner courtyard:</p>
+          <g-image src="https://res.cloudinary.com/chezmarcelsinaia/image/upload/v1572535553/waze-route.jpg" />
         </div>
       </article>
       <section class="sm:pt-32">
