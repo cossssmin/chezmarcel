@@ -192,7 +192,6 @@
 
 <script>
 import Parallax from 'vue-parallaxy'
-import config from '~/.temp/config.js'
 import SiteFooter from '@/components/Footer'
 import scrollToElement from 'scroll-to-element'
 import BookingForm from '@/components/BookingForm'
@@ -252,9 +251,6 @@ export default {
     })
   },
   computed: {
-    config() {
-      return config
-    },
     ogImageUrl() {
       return 'https://res.cloudinary.com/chezmarcelsinaia/image/upload/v1559760386/twitter-card.jpg'
     },
