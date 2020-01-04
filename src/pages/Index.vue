@@ -28,7 +28,7 @@
       </header>
 
       <section>
-        <booking-form class="-mt-24" locale="ro" minGuests="1" maxGuests="14" guestsNum="2" />
+        <booking-form class="-mt-24" locale="ro-ro" minGuests="1" maxGuests="14" guestsNum="2" />
       </section>
 
       <section id="camere">

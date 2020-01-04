@@ -16,12 +16,12 @@
             <div class="flex lg:ml-5 cursor-pointer">
               <div class="w-1/3 flex flex-col lg:h-24 lg:justify-around items-center self-center">
                 <span class="text-gray-500 text-lg lg:text-xl">Check-in:</span>
-                <span v-show="range.start" v-html="niceDate(range.start)" class="capitalize" />
+                <span v-show="range.start" v-text="niceDate(range.start)" class="capitalize" />
               </div>
               <div class="w-1/3 flex flex-col lg:-ml-10 lg:pl-6 h-16 lg:h-24 justify-center items-center self-center">&rarr;</div>
               <div class="w-1/3 flex flex-col lg:h-24 lg:justify-around items-center self-center">
                 <span class="text-gray-500 text-lg lg:text-xl">Check-out:</span>
-                <span v-show="range.end" v-html="niceDate(range.end)" class="capitalize" />
+                <span v-show="range.end" v-text="niceDate(range.end)" class="capitalize" />
               </div>
             </div>
           </v-date-picker>
@@ -58,7 +58,6 @@ export default {
       checkIn: this.formatDate(today),
       checkOut: this.formatDate(today.setDate(today.getDate() + 2)),
       numGuests: 2,
-      monthNames: [],
     }
   },
   mounted() {
@@ -71,13 +70,12 @@ export default {
       }
     },
     updateDates(ev) {
-      this.monthNames = this.$refs.calendar.locale_.monthNames
       this.checkIn = this.formatDate(ev.start)
       this.checkOut = this.formatDate(ev.end)
     },
     niceDate(date) {
       const d = new Date(date)
-      return `${d.getDate()} ${this.monthNames[d.getMonth()]}`
+      return `${d.getDate()} ${d.toLocaleString(this.locale, { month: 'long' })}`
     },
     formatDate(date) {
       let d = new Date(date),

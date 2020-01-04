@@ -28,7 +28,7 @@
       </header>
 
       <section>
-        <booking-form class="-mt-24" locale="en" guestsLabel="Guests" btnLabel="Check available rooms" btnHelperText="Will open Booking.com in a new tab" minGuests="1" maxGuests="14" guestsNum="2" />
+        <booking-form class="-mt-24" locale="en-us" guestsLabel="Guests" btnLabel="Check available rooms" btnHelperText="Will open Booking.com in a new tab" minGuests="1" maxGuests="14" guestsNum="2" />
       </section>
 
       <section id="rooms">
