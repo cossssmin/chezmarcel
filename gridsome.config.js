@@ -1,9 +1,3 @@
-class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
-  }
-}
-
 module.exports = {
   siteName: 'Chez Marcel',
   siteDescription: "Cazare în Sinaia, în vilă nouă cu camere duble şi suite de familie. Facilităţile includ bucătărie, living şi foişor comune, Wi-Fi, Netflix, Playstation 4.",
@@ -73,12 +67,7 @@ module.exports = {
                 'content/**/*.md',
                 'src/**/*.js'
               ],
-              extractors: [
-                {
-                  extractor: TailwindExtractor,
-                  extensions: ['css', 'vue', 'js', 'md']
-                }
-              ],
+              defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
               whitelistPatterns: [/shiki/]
             }),
           ])
