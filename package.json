@@ -17,7 +17,7 @@
     "gridsome-plugin-rss": "^1.2.0",
     "medium-zoom": "^1.0.5",
     "scroll-to-element": "^2.0.3",
-    "v-calendar": "^1.0.1",
+    "v-calendar": "^1.0.6",
     "vue-parallaxy": "^1.1.1"
   },
   "devDependencies": {
