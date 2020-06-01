@@ -58,27 +58,7 @@ module.exports = {
           require('tailwindcss'),
         ])
 
-        if (process.env.NODE_ENV === 'production') {
-          options.plugins.push(...[
-            require('@fullhuman/postcss-purgecss')({
-              content: [
-                'src/assets/**/*.css',
-                'src/**/*.vue',
-                'content/**/*.md',
-                'src/**/*.js'
-              ],
-              defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-              whitelistPatterns: [/shiki/]
-            }),
-          ])
-        }
-
         return options
       })
   },
 }
-
-
-
-
-
