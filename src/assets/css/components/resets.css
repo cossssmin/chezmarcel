@@ -11,7 +11,7 @@
 }
 
 .menu-item::after {
-  @apply absolute inset-0 w-full h-full bg-no-repeat bg-contain transition-opacity opacity-0;
+  @apply absolute inset-0 w-full h-full bg-no-repeat bg-contain transition-opacity duration-200 opacity-0;
   background-image: url('https://res.cloudinary.com/chezmarcelsinaia/image/upload/v1559760658/cloud.png');
   background-position: 0 24px;
   content: "";

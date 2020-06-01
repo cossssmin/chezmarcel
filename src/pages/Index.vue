@@ -39,7 +39,7 @@
           </div>
           <ul class="flex flex-wrap py-8 -mx-4 -mb-8 justify-center">
             <li class="w-full max-w-sm md:w-1/2 lg:w-1/3 px-4 mb-8" v-for="camera in $page.camere.edges" :key="camera.node.id">
-              <figure class="shadow hover:shadow-lg hover:-mt-1 transition-index-card rounded-b">
+              <figure class="shadow hover:shadow-lg hover:-mt-1 transition-shadow duration-200 rounded-b">
                 <g-link :to="`${camera.node.path}/`" class="block text-black">
                   <img class="rounded-t" :src="camera.node.card" alt="Cameră dublă parter Chez Marcel Sinaia">
                   <figcaption class="bg-white p-4 rounded-b">
@@ -181,7 +181,7 @@
           <div class="flex flex-col text-center">
             <h2 class="text-4xl font-sans font-bold text-black leading-none md:leading-snug mb-4 md:mb-0">Concediu la munte, în Sinaia?</h2>
             <span class="text-gray-500 font-sans text-lg">Alege camera care ți se potrivește ţie sau familiei tale</span>
-            <a href="#camere" class="scroll-to mt-16 border border-blue-500 self-center font-sans transition-blue-cta text-blue-500 hover:bg-blue-500 hover:text-white hover:shadow-md rounded px-6 py-4 no-underline z-10">Alege camera &uarr;</a>
+            <a href="#camere" class="scroll-to mt-16 border border-blue-500 self-center font-sans transition duration-150 text-blue-500 hover:bg-blue-500 hover:text-white hover:shadow-md rounded px-6 py-4 no-underline z-10">Alege camera &uarr;</a>
           </div>
         </div>
       </section>
@@ -284,4 +284,3 @@ query {
   }
 }
 </static-query>
-

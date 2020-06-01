@@ -60,7 +60,7 @@
             <h2 class="text-3xl sm:text-4xl font-sans font-bold text-black">Concediu în doi, sau cu familia?</h2>
             <span class="text-gray-500 font-sans">Alege camera care ți se potrivește ţie sau familiei tale</span>
             <span class="pt-6 text-xl">👇</span>
-            <a href="/#camere" class="scroll-to mt-8 border border-blue-500 self-center font-sans transition-blue-cta text-blue-500 hover:bg-blue-500 hover:text-white hover:shadow-md rounded px-6 py-4 no-underline z-10">
+            <a href="/#camere" class="scroll-to mt-8 border border-blue-500 self-center font-sans transition duration-150 text-blue-500 hover:bg-blue-500 hover:text-white hover:shadow-md rounded px-6 py-4 no-underline z-10">
               Alege camera &rarr;
             </a>
           </div>

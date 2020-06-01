@@ -45,7 +45,7 @@
             <h2 class="text-3xl sm:text-4xl font-sans font-bold text-black" v-html="$page.room.cta[0].title" />
             <span class="text-gray-500 font-sans" v-html="$page.room.cta[0].subtitle" />
             <span class="pt-6 text-xl">👇</span>
-            <a href="#top" v-html="$page.room.cta[0].btnText" class="scroll-to mt-8 border border-blue-500 self-center font-sans transition-blue-cta text-blue-500 hover:bg-blue-500 hover:text-white hover:shadow-md rounded px-6 py-4 no-underline z-10" />
+            <a href="#top" v-html="$page.room.cta[0].btnText" class="scroll-to mt-8 border border-blue-500 self-center font-sans transition duration-150 text-blue-500 hover:bg-blue-500 hover:text-white hover:shadow-md rounded px-6 py-4 no-underline z-10" />
           </div>
         </div>
       </section>
