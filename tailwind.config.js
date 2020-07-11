@@ -168,6 +168,7 @@ module.exports = {
     backgroundPosition: {
       bottom: 'bottom',
       center: 'center',
+      'center-top': 'center top',
       left: 'left',
       'left-bottom': 'left bottom',
       'left-top': 'left top',

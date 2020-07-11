@@ -15,7 +15,7 @@
             <div class="m-auto">
               <h1 class="text-5xl md:text-7xl font-pinyon font-bold leading-tight mb-2 text-splash-logo">
                 Chez Marcel
-                <span class="text-sm md:text-xl font-sans font-hairline -mt-2 md:-mt-6 block text-rights ml-14 md:ml-10">Sinaia, România</span>
+                <span class="text-sm md:text-xl font-sans font-hairline -mt-2 md:-mt-6 block ml-14 md:ml-10">Sinaia, România</span>
               </h1>
             </div>
           </div>
