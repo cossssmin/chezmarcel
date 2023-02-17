@@ -14,10 +14,6 @@
           <h6>Notes:</h6>
           <ul>
             <li>We only accept credit card payments on Booking.com</li>
-            <li>If you're a
-              <a href="https://www.booking.com/genius.html" target="_blank" class="inline-block rounded-tl rounded-bl bg-genius text-white text-sm px-2 py-px leading-full font-sans font-semibold cursor-help" title="You're a .genius member if you booked at least two times on Booking.com">.genius</a>
-              Booking.com member, you get a 10% discount
-            </li>
           </ul>
           <hr />
           <h2 id="directions">
