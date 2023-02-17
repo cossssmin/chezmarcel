@@ -15,17 +15,13 @@
           <h6>Menţiuni generale:</h6>
           <ul>
             <li>Chez Marcel Sinaia nu este persoană juridică, motiv pentru care nu putem emite factură fiscală</li>
-            <li>Nu acceptăm plata cu vouchere sau tichete de vacanţă</li>
-            <li>Rezervările directe vor fi confirmate numai după garantarea cu un avans de 50% din valoarea sejurului, prin transfer bancar</li>
+            <li>Plata cu vouchere sau tichete de vacanţă nu este posibilă</li>
+            <li>Garantarea rezervărilor directe se face prin plata unui avans nerambursabil, contravaloarea primei nopți de cazare</li>
           </ul>
           <h6>Menţiuni Booking.com:</h6>
           <ul>
             <li>Plata pe Booking.com se poate face doar cu cardul</li>
             <li>Booking.com nu acceptă carduri special emise pentru vouchere de vacanţă</li>
-            <li>Utilizatorii
-              <a href="https://www.booking.com/genius.html" target="_blank" class="inline-block rounded-tl rounded-bl bg-genius text-white text-sm px-2 py-px leading-full font-sans font-semibold cursor-help" title="Eşti user .genius dacă ai făcut cel puţin două rezervări pe Booking.com">.genius</a>
-              primesc un discount de 10% din preţul standard
-            </li>
           </ul>
           <hr />
           <h2 id="orientare">
